@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Audio_Optical_Trigger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -126,4 +127,6 @@ Wire Wire Line
 	5500 4170 5500 4070
 Text GLabel 4920 2470 0    40   Input ~ 0
 ~Output_Channel_1_Group_1
+Text Notes 7320 3150 0    50   ~ 0
+Add TVS Diodes
 $EndSCHEMATC

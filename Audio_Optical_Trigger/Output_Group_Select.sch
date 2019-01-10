@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Audio_Optical_Trigger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500

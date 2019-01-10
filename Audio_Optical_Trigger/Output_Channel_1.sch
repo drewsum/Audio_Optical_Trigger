@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Audio_Optical_Trigger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -13,52 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+5V #PWR?
-U 1 1 5C3A9CE8
-P 6400 3900
-F 0 "#PWR?" H 6400 3750 50  0001 C CNN
-F 1 "+5V" H 6400 4040 50  0000 C CNN
-F 2 "" H 6400 3900 50  0001 C CNN
-F 3 "" H 6400 3900 50  0001 C CNN
-	1    6400 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C3A9D21
-P 6400 4100
-F 0 "#PWR?" H 6400 3850 50  0001 C CNN
-F 1 "GND" H 6400 3950 50  0000 C CNN
-F 2 "" H 6400 4100 50  0001 C CNN
-F 3 "" H 6400 4100 50  0001 C CNN
-	1    6400 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:74LVC1G07_Power U?
-U 1 1 5C3AA45C
-P 6400 4000
-F 0 "U?" H 6500 4100 50  0000 L CNN
-F 1 "74LVC1G07" H 6500 3900 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 6400 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6400 4000 50  0001 C CNN
-F 4 "296-8486-1-ND" H 6400 4000 50  0001 C CNN "Digi-Key PN"
-	1    6400 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Library:74LVC1G00_Power U?
-U 1 1 5C3BA6E2
-P 5280 4000
-F 0 "U?" H 5430 4100 50  0000 L CNN
-F 1 "74LVC1G00" H 5430 3900 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5" H 5330 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g00.pdf" H 5280 4000 50  0001 C CNN
-F 4 "296-9846-1-ND" H 5280 4000 50  0001 C CNN "Digi-Key PN"
-	1    5280 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5C3BA9F1
@@ -81,12 +36,10 @@ F 3 "" H 5280 4100 50  0001 C CNN
 	1    5280 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 4000 5860 4000
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5C3BB03B
-P 7020 3730
+P 5970 3730
 AR Path="/5BB27BA3/5C3BB03B" Ref="R?"  Part="1" 
 AR Path="/5BB27BF7/5C3BB03B" Ref="R?"  Part="1" 
 AR Path="/5C1DE17A/5C3BB03B" Ref="R?"  Part="1" 
@@ -94,78 +47,35 @@ AR Path="/5C1E3A08/5C3BB03B" Ref="R?"  Part="1"
 AR Path="/5C38ED7E/5C3BB03B" Ref="R?"  Part="1" 
 AR Path="/5C3A0E70/5C3BB03B" Ref="R?"  Part="1" 
 AR Path="/5C3A87FE/5C3BB03B" Ref="R?"  Part="1" 
-F 0 "R?" H 6940 3730 50  0000 R CNN
-F 1 "10k" V 7020 3730 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 7020 3730 50  0001 C CNN
-F 3 "" H 7020 3730 50  0001 C CNN
-F 4 "DNP" H 7120 3890 50  0000 L CNN "Config"
-F 5 "RHM10KADCT-ND" H 7320 4130 60  0001 C CNN "Digi-Key PN"
-F 6 "0603" H 7120 3810 50  0000 L CNN "display_footprint"
-F 7 "1%" H 7120 3730 50  0000 L CNN "Tolerance"
-F 8 "1/10W" H 7130 3650 50  0000 L CNN "Wattage"
-	1    7020 3730
+F 0 "R?" H 5890 3730 50  0000 R CNN
+F 1 "10k" V 5970 3730 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 5970 3730 50  0001 C CNN
+F 3 "" H 5970 3730 50  0001 C CNN
+F 4 "DNP" H 6070 3890 50  0000 L CNN "Config"
+F 5 "RHM10KADCT-ND" H 6270 4130 60  0001 C CNN "Digi-Key PN"
+F 6 "0603" H 6070 3810 50  0000 L CNN "display_footprint"
+F 7 "1%" H 6070 3730 50  0000 L CNN "Tolerance"
+F 8 "1/10W" H 6080 3650 50  0000 L CNN "Wattage"
+	1    5970 3730
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5C3BB042
-P 7020 3580
+P 5970 3580
 AR Path="/5C3A0E70/5C3BB042" Ref="#PWR?"  Part="1" 
 AR Path="/5C3A87FE/5C3BB042" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7020 3430 50  0001 C CNN
-F 1 "+5V" H 7020 3720 50  0000 C CNN
-F 2 "" H 7020 3580 50  0001 C CNN
-F 3 "" H 7020 3580 50  0001 C CNN
-	1    7020 3580
+F 0 "#PWR?" H 5970 3430 50  0001 C CNN
+F 1 "+5V" H 5970 3720 50  0000 C CNN
+F 2 "" H 5970 3580 50  0001 C CNN
+F 3 "" H 5970 3580 50  0001 C CNN
+	1    5970 3580
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7020 3880 7020 4000
+	5970 3880 5970 4000
 Wire Wire Line
-	7020 4000 6650 4000
-Wire Wire Line
-	7090 4000 7020 4000
-Connection ~ 7020 4000
-$Comp
-L Custom_Library:R_Custom R?
-U 1 1 5C3BB6C3
-P 5860 3730
-AR Path="/5BB27BA3/5C3BB6C3" Ref="R?"  Part="1" 
-AR Path="/5BB27BF7/5C3BB6C3" Ref="R?"  Part="1" 
-AR Path="/5C1DE17A/5C3BB6C3" Ref="R?"  Part="1" 
-AR Path="/5C1E3A08/5C3BB6C3" Ref="R?"  Part="1" 
-AR Path="/5C38ED7E/5C3BB6C3" Ref="R?"  Part="1" 
-AR Path="/5C3A0E70/5C3BB6C3" Ref="R?"  Part="1" 
-AR Path="/5C3A87FE/5C3BB6C3" Ref="R?"  Part="1" 
-F 0 "R?" H 5780 3730 50  0000 R CNN
-F 1 "10k" V 5860 3730 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 5860 3730 50  0001 C CNN
-F 3 "" H 5860 3730 50  0001 C CNN
-F 4 "0603" H 5960 3810 50  0000 L CNN "display_footprint"
-F 5 "1%" H 5960 3730 50  0000 L CNN "Tolerance"
-F 6 "1/10W" H 5970 3650 50  0000 L CNN "Wattage"
-F 7 "RHM10KADCT-ND" H 6160 4130 60  0001 C CNN "Digi-Key PN"
-	1    5860 3730
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5C3BB6CA
-P 5860 3580
-AR Path="/5C3A0E70/5C3BB6CA" Ref="#PWR?"  Part="1" 
-AR Path="/5C3A87FE/5C3BB6CA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5860 3430 50  0001 C CNN
-F 1 "+5V" H 5860 3720 50  0000 C CNN
-F 2 "" H 5860 3580 50  0001 C CNN
-F 3 "" H 5860 3580 50  0001 C CNN
-	1    5860 3580
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5860 3880 5860 4000
-Connection ~ 5860 4000
-Wire Wire Line
-	5860 4000 5530 4000
+	6040 4000 5970 4000
 $Comp
 L Custom_Library:R_Custom R?
 U 1 1 5C3BB9FC
@@ -250,6 +160,20 @@ Wire Wire Line
 Connection ~ 4840 4050
 Wire Wire Line
 	4840 4050 4980 4050
-Text GLabel 7090 4000 2    50   Output ~ 0
+Text GLabel 6040 4000 2    50   Output ~ 0
 ~Output_Channel_1_Group_1
+$Comp
+L Custom_Library:74LVC1G38_Power U?
+U 1 1 5C36E72A
+P 5280 4000
+F 0 "U?" H 5430 4100 50  0000 L CNN
+F 1 "74LVC1G38" H 5430 3900 50  0000 L CNN
+F 2 "" H 5280 4000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5280 4000 50  0001 C CNN
+	1    5280 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5970 4000 5530 4000
+Connection ~ 5970 4000
 $EndSCHEMATC
