@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 6
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -126,7 +126,114 @@ Connection ~ 5500 4170
 Wire Wire Line
 	5500 4170 5500 4070
 Text GLabel 4920 2470 0    40   Input ~ 0
-~Output_Channel_1_Group_1
-Text Notes 7320 3150 0    50   ~ 0
-Add TVS Diodes
+~Output_Group_1_Channel_1
+Text GLabel 4920 2570 0    40   Input ~ 0
+~Output_Group_1_Channel_2
+Text GLabel 4920 2670 0    40   Input ~ 0
+~Output_Group_1_Channel_3
+Text GLabel 4920 2770 0    40   Input ~ 0
+~Output_Group_2_Channel_1
+Text GLabel 4920 2870 0    40   Input ~ 0
+~Output_Group_2_Channel_2
+Text GLabel 4920 2970 0    40   Input ~ 0
+~Output_Group_2_Channel_3
+Text GLabel 4920 3070 0    40   Input ~ 0
+~Output_Group_3_Channel_1
+Text GLabel 4920 3170 0    40   Input ~ 0
+~Output_Group_3_Channel_2
+Text GLabel 4920 3270 0    40   Input ~ 0
+~Output_Group_3_Channel_3
+NoConn ~ 4920 3370
+NoConn ~ 4920 3470
+NoConn ~ 4920 3570
+NoConn ~ 4920 3670
+NoConn ~ 4920 3770
+NoConn ~ 4920 3870
+NoConn ~ 4920 3970
+NoConn ~ 4920 4070
+NoConn ~ 4920 4170
+$Comp
+L Power_Protection:SP0503BAHT D?
+U 1 1 5C433C4E
+P 6970 3900
+F 0 "D?" H 7195 4000 50  0000 L CNN
+F 1 "SP0503BAHT" H 7195 3925 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-143" H 7195 3850 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 7095 4025 50  0001 C CNN
+	1    6970 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6870 3700 1    40   UnSpc ~ 0
+~Output_Group_1_Channel_1
+Text GLabel 6970 3700 1    40   UnSpc ~ 0
+~Output_Group_1_Channel_2
+Text GLabel 7070 3700 1    40   UnSpc ~ 0
+~Output_Group_1_Channel_3
+$Comp
+L power:GND #PWR?
+U 1 1 5C434B06
+P 6970 4100
+F 0 "#PWR?" H 6970 3850 50  0001 C CNN
+F 1 "GND" H 6970 3950 50  0000 C CNN
+F 2 "" H 6970 4100 50  0001 C CNN
+F 3 "" H 6970 4100 50  0001 C CNN
+	1    6970 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0503BAHT D?
+U 1 1 5C435319
+P 8170 3900
+F 0 "D?" H 8395 4000 50  0000 L CNN
+F 1 "SP0503BAHT" H 8395 3925 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-143" H 8395 3850 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8295 4025 50  0001 C CNN
+	1    8170 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8070 3700 1    40   UnSpc ~ 0
+~Output_Group_2_Channel_1
+Text GLabel 8170 3700 1    40   UnSpc ~ 0
+~Output_Group_2_Channel_2
+Text GLabel 8270 3700 1    40   UnSpc ~ 0
+~Output_Group_2_Channel_3
+$Comp
+L power:GND #PWR?
+U 1 1 5C435323
+P 8170 4100
+F 0 "#PWR?" H 8170 3850 50  0001 C CNN
+F 1 "GND" H 8170 3950 50  0000 C CNN
+F 2 "" H 8170 4100 50  0001 C CNN
+F 3 "" H 8170 4100 50  0001 C CNN
+	1    8170 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0503BAHT D?
+U 1 1 5C435AB8
+P 9370 3900
+F 0 "D?" H 9595 4000 50  0000 L CNN
+F 1 "SP0503BAHT" H 9595 3925 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-143" H 9595 3850 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 9495 4025 50  0001 C CNN
+	1    9370 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 9270 3700 1    40   UnSpc ~ 0
+~Output_Group_3_Channel_1
+Text GLabel 9370 3700 1    40   UnSpc ~ 0
+~Output_Group_3_Channel_2
+Text GLabel 9470 3700 1    40   UnSpc ~ 0
+~Output_Group_3_Channel_3
+$Comp
+L power:GND #PWR?
+U 1 1 5C435AC2
+P 9370 4100
+F 0 "#PWR?" H 9370 3850 50  0001 C CNN
+F 1 "GND" H 9370 3950 50  0000 C CNN
+F 2 "" H 9370 4100 50  0001 C CNN
+F 3 "" H 9370 4100 50  0001 C CNN
+	1    9370 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
