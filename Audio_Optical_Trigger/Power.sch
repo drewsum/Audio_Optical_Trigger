@@ -5,10 +5,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 2 10
-Title "QI Charger"
-Date "2019-01-03"
+Title "MP3 Trigger Optical Interface"
+Date "2019-01-18"
 Rev "A"
-Comp ""
+Comp "Drew Maatman"
 Comment1 ""
 Comment2 ""
 Comment3 ""

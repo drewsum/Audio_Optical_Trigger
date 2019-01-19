@@ -5,10 +5,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 4 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MP3 Trigger Optical Interface"
+Date "2019-01-18"
+Rev "A"
+Comp "Drew Maatman"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -369,6 +369,7 @@ F 0 "J401" H 2450 3470 50  0000 C CNN
 F 1 "TX2" H 2450 3170 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 2450 3370 50  0001 C CNN
 F 3 "~" H 2450 3370 50  0001 C CNN
+F 4 "277-1273-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2450 3370
 	1    0    0    -1  
 $EndComp
@@ -382,6 +383,7 @@ F 0 "J402" H 3140 3630 50  0000 C CNN
 F 1 "RX2" H 3140 3230 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 3140 3430 50  0001 C CNN
 F 3 "~" H 3140 3430 50  0001 C CNN
+F 4 "277-1274-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    3140 3430
 	-1   0    0    -1  
 $EndComp

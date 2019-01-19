@@ -5,10 +5,10 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 10 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MP3 Trigger Optical Interface"
+Date "2019-01-18"
+Rev "A"
+Comp "Drew Maatman"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -22,6 +22,7 @@ F 0 "J1001" H 5170 4170 50  0000 C CNN
 F 1 "Trigger Output" H 5120 2270 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 5120 3270 50  0001 C CNN
 F 3 "~" H 5120 3270 50  0001 C CNN
+F 4 "732-5309-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5120 3270
 	1    0    0    -1  
 $EndComp
