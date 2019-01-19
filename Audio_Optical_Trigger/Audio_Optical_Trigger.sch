@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title "MP3 Trigger Optical Interface"
 Date "2019-01-18"
 Rev "A"
@@ -90,4 +90,12 @@ Text Notes 920  1630 0    100  ~ 20
 01. Table of Contents
 Text Notes 3740 940  0    150  ~ 30
 MP3 Trigger Optical Interface
+$Sheet
+S 2960 4480 500  150 
+U 5C4420F4
+F0 "Mechanical" 50
+F1 "Mechanical.sch" 50
+$EndSheet
+Text Notes 920  4630 0    100  ~ 20
+11. Mechanical
 $EndSCHEMATC

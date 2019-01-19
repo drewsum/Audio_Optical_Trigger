@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 9 10
+Sheet 9 11
 Title "MP3 Trigger Optical Interface"
 Date "2019-01-18"
 Rev "A"
@@ -141,7 +141,7 @@ AR Path="/5C3A0E70/5C3BCDE1" Ref="D?"  Part="1"
 AR Path="/5C3BC6A7/5C3BCDE1" Ref="D902"  Part="1" 
 F 0 "D902" V 5904 1669 50  0000 L CNN
 F 1 "MM5Z5V6" V 5995 1669 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-523" H 5950 1415 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-523" H 5950 1415 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 5950 1590 50  0001 C CNN
 F 4 "MM5Z5V6T1GOSCT-ND" H 5950 1590 50  0001 C CNN "Digi-Key PN"
 	1    5950 1590
@@ -365,7 +365,7 @@ AR Path="/5C3A0E70/5C41EF94" Ref="D?"  Part="1"
 AR Path="/5C3BC6A7/5C41EF94" Ref="D903"  Part="1" 
 F 0 "D903" V 5904 3669 50  0000 L CNN
 F 1 "MM5Z5V6" V 5995 3669 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-523" H 5950 3415 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-523" H 5950 3415 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 5950 3590 50  0001 C CNN
 F 4 "MM5Z5V6T1GOSCT-ND" H 5950 3590 50  0001 C CNN "Digi-Key PN"
 	1    5950 3590
@@ -589,7 +589,7 @@ AR Path="/5C3A0E70/5C41FCAB" Ref="D?"  Part="1"
 AR Path="/5C3BC6A7/5C41FCAB" Ref="D904"  Part="1" 
 F 0 "D904" V 5904 5639 50  0000 L CNN
 F 1 "MM5Z5V6" V 5995 5639 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-523" H 5950 5385 50  0001 C CNN
+F 2 "Diodes_SMD:D_SOD-523" H 5950 5385 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 5950 5560 50  0001 C CNN
 F 4 "MM5Z5V6T1GOSCT-ND" H 5950 5560 50  0001 C CNN "Digi-Key PN"
 	1    5950 5560
@@ -714,11 +714,7 @@ Wire Wire Line
 Wire Wire Line
 	2890 4020 1910 4020
 Wire Wire Line
-	1910 3720 2140 3720
-Wire Wire Line
 	3120 3720 3120 1340
-Wire Wire Line
-	1910 3820 2240 3820
 Wire Wire Line
 	3410 3820 3410 3340
 Wire Wire Line
@@ -755,19 +751,23 @@ F 3 "" H 2340 4970 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2140 4370 2140 3720
-Connection ~ 2140 3720
-Wire Wire Line
-	2140 3720 3120 3720
-Wire Wire Line
-	2240 4370 2240 3820
-Connection ~ 2240 3820
-Wire Wire Line
-	2240 3820 3410 3820
-Wire Wire Line
 	2440 4370 2440 3920
 Connection ~ 2440 3920
 Wire Wire Line
 	2440 3920 3410 3920
 NoConn ~ 2540 4370
+Wire Wire Line
+	1910 3720 2240 3720
+Wire Wire Line
+	1910 3820 2140 3820
+Wire Wire Line
+	2240 4370 2240 3720
+Connection ~ 2240 3720
+Wire Wire Line
+	2240 3720 3120 3720
+Wire Wire Line
+	2140 4370 2140 3820
+Connection ~ 2140 3820
+Wire Wire Line
+	2140 3820 3410 3820
 $EndSCHEMATC

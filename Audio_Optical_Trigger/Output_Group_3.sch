@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 10
+Sheet 8 11
 Title "MP3 Trigger Optical Interface"
 Date "2019-01-18"
 Rev "A"
@@ -595,7 +595,7 @@ $EndComp
 Text GLabel 4000 5300 0    50   Input ~ 0
 Output_Group_Select_3
 Text GLabel 4000 5400 0    50   Input ~ 0
-Input_Channel_2
+Input_Channel_3
 Wire Wire Line
 	4000 5400 4960 5400
 Wire Wire Line
