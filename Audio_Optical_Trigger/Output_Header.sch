@@ -165,11 +165,11 @@ F 4 "F2715CT-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    6970 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 6870 3700 1    40   UnSpc ~ 0
+Text GLabel 7070 3700 1    40   UnSpc ~ 0
 ~Output_Group_1_Channel_1
 Text GLabel 6970 3700 1    40   UnSpc ~ 0
 ~Output_Group_1_Channel_2
-Text GLabel 7070 3700 1    40   UnSpc ~ 0
+Text GLabel 6870 3700 1    40   UnSpc ~ 0
 ~Output_Group_1_Channel_3
 $Comp
 L power:GND #PWR01002
@@ -194,11 +194,11 @@ F 4 "F2715CT-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    8170 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 8070 3700 1    40   UnSpc ~ 0
+Text GLabel 8270 3700 1    40   UnSpc ~ 0
 ~Output_Group_2_Channel_1
 Text GLabel 8170 3700 1    40   UnSpc ~ 0
 ~Output_Group_2_Channel_2
-Text GLabel 8270 3700 1    40   UnSpc ~ 0
+Text GLabel 8070 3700 1    40   UnSpc ~ 0
 ~Output_Group_2_Channel_3
 $Comp
 L power:GND #PWR01003
@@ -223,11 +223,11 @@ F 4 "F2715CT-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    9370 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 9270 3700 1    40   UnSpc ~ 0
+Text GLabel 9470 3700 1    40   UnSpc ~ 0
 ~Output_Group_3_Channel_1
 Text GLabel 9370 3700 1    40   UnSpc ~ 0
 ~Output_Group_3_Channel_2
-Text GLabel 9470 3700 1    40   UnSpc ~ 0
+Text GLabel 9270 3700 1    40   UnSpc ~ 0
 ~Output_Group_3_Channel_3
 $Comp
 L power:GND #PWR01004
