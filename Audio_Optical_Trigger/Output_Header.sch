@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -15,21 +15,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x18_Odd_Even J?
+L Connector_Generic:Conn_02x18_Odd_Even J1001
 U 1 1 5C3A7DF5
 P 5120 3270
-F 0 "J?" H 5170 4170 50  0000 C CNN
+F 0 "J1001" H 5170 4170 50  0000 C CNN
 F 1 "Trigger Output" H 5120 2270 50  0000 C CNN
-F 2 "" H 5120 3270 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm" H 5120 3270 50  0001 C CNN
 F 3 "~" H 5120 3270 50  0001 C CNN
 	1    5120 3270
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01001
 U 1 1 5C3A80A4
 P 5500 4250
-F 0 "#PWR?" H 5500 4000 50  0001 C CNN
+F 0 "#PWR01001" H 5500 4000 50  0001 C CNN
 F 1 "GND" H 5500 4100 50  0000 C CNN
 F 2 "" H 5500 4250 50  0001 C CNN
 F 3 "" H 5500 4250 50  0001 C CNN
@@ -153,13 +153,14 @@ NoConn ~ 4920 3970
 NoConn ~ 4920 4070
 NoConn ~ 4920 4170
 $Comp
-L Power_Protection:SP0503BAHT D?
+L Power_Protection:SP0503BAHT D1001
 U 1 1 5C433C4E
 P 6970 3900
-F 0 "D?" H 7195 4000 50  0000 L CNN
+F 0 "D1001" H 7195 4000 50  0000 L CNN
 F 1 "SP0503BAHT" H 7195 3925 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-143" H 7195 3850 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 7095 4025 50  0001 C CNN
+F 4 "F2715CT-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    6970 3900
 	1    0    0    -1  
 $EndComp
@@ -170,10 +171,10 @@ Text GLabel 6970 3700 1    40   UnSpc ~ 0
 Text GLabel 7070 3700 1    40   UnSpc ~ 0
 ~Output_Group_1_Channel_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01002
 U 1 1 5C434B06
 P 6970 4100
-F 0 "#PWR?" H 6970 3850 50  0001 C CNN
+F 0 "#PWR01002" H 6970 3850 50  0001 C CNN
 F 1 "GND" H 6970 3950 50  0000 C CNN
 F 2 "" H 6970 4100 50  0001 C CNN
 F 3 "" H 6970 4100 50  0001 C CNN
@@ -181,13 +182,14 @@ F 3 "" H 6970 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:SP0503BAHT D?
+L Power_Protection:SP0503BAHT D1002
 U 1 1 5C435319
 P 8170 3900
-F 0 "D?" H 8395 4000 50  0000 L CNN
+F 0 "D1002" H 8395 4000 50  0000 L CNN
 F 1 "SP0503BAHT" H 8395 3925 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-143" H 8395 3850 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8295 4025 50  0001 C CNN
+F 4 "F2715CT-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    8170 3900
 	1    0    0    -1  
 $EndComp
@@ -198,10 +200,10 @@ Text GLabel 8170 3700 1    40   UnSpc ~ 0
 Text GLabel 8270 3700 1    40   UnSpc ~ 0
 ~Output_Group_2_Channel_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01003
 U 1 1 5C435323
 P 8170 4100
-F 0 "#PWR?" H 8170 3850 50  0001 C CNN
+F 0 "#PWR01003" H 8170 3850 50  0001 C CNN
 F 1 "GND" H 8170 3950 50  0000 C CNN
 F 2 "" H 8170 4100 50  0001 C CNN
 F 3 "" H 8170 4100 50  0001 C CNN
@@ -209,13 +211,14 @@ F 3 "" H 8170 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:SP0503BAHT D?
+L Power_Protection:SP0503BAHT D1003
 U 1 1 5C435AB8
 P 9370 3900
-F 0 "D?" H 9595 4000 50  0000 L CNN
+F 0 "D1003" H 9595 4000 50  0000 L CNN
 F 1 "SP0503BAHT" H 9595 3925 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-143" H 9595 3850 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 9495 4025 50  0001 C CNN
+F 4 "F2715CT-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    9370 3900
 	1    0    0    -1  
 $EndComp
@@ -226,10 +229,10 @@ Text GLabel 9370 3700 1    40   UnSpc ~ 0
 Text GLabel 9470 3700 1    40   UnSpc ~ 0
 ~Output_Group_3_Channel_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01004
 U 1 1 5C435AC2
 P 9370 4100
-F 0 "#PWR?" H 9370 3850 50  0001 C CNN
+F 0 "#PWR01004" H 9370 3850 50  0001 C CNN
 F 1 "GND" H 9370 3950 50  0000 C CNN
 F 2 "" H 9370 4100 50  0001 C CNN
 F 3 "" H 9370 4100 50  0001 C CNN
