@@ -692,9 +692,9 @@ U 1 1 5C421A61
 P 1710 3820
 F 0 "J901" H 1710 4020 50  0000 C CNN
 F 1 "Group Select" H 1710 3520 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_4pol" H 1710 3820 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol" H 1710 3820 50  0001 C CNN
 F 3 "~" H 1710 3820 50  0001 C CNN
-F 4 "277-1275-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "277-1860-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    1710 3820
 	-1   0    0    -1  
 $EndComp

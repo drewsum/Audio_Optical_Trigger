@@ -359,9 +359,9 @@ U 1 1 5C417641
 P 2450 3370
 F 0 "J301" H 2450 3470 50  0000 C CNN
 F 1 "TX1" H 2450 3170 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 2450 3370 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 2450 3370 50  0001 C CNN
 F 3 "~" H 2450 3370 50  0001 C CNN
-F 4 "277-1273-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "277-1721-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2450 3370
 	1    0    0    -1  
 $EndComp
@@ -371,9 +371,9 @@ U 1 1 5C4179F9
 P 3140 3430
 F 0 "J302" H 3140 3630 50  0000 C CNN
 F 1 "RX1" H 3140 3230 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 3140 3430 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol" H 3140 3430 50  0001 C CNN
 F 3 "~" H 3140 3430 50  0001 C CNN
-F 4 "277-1274-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "277-1722-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    3140 3430
 	-1   0    0    -1  
 $EndComp

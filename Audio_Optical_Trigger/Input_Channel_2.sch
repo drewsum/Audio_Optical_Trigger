@@ -367,9 +367,9 @@ AR Path="/5C3A0E70/5C417F85" Ref="J?"  Part="1"
 AR Path="/5C413EC6/5C417F85" Ref="J401"  Part="1" 
 F 0 "J401" H 2450 3470 50  0000 C CNN
 F 1 "TX2" H 2450 3170 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 2450 3370 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol" H 2450 3370 50  0001 C CNN
 F 3 "~" H 2450 3370 50  0001 C CNN
-F 4 "277-1273-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "277-1721-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2450 3370
 	1    0    0    -1  
 $EndComp
@@ -381,9 +381,9 @@ AR Path="/5C3A0E70/5C417F8C" Ref="J?"  Part="1"
 AR Path="/5C413EC6/5C417F8C" Ref="J402"  Part="1" 
 F 0 "J402" H 3140 3630 50  0000 C CNN
 F 1 "RX2" H 3140 3230 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 3140 3430 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol" H 3140 3430 50  0001 C CNN
 F 3 "~" H 3140 3430 50  0001 C CNN
-F 4 "277-1274-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "277-1722-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    3140 3430
 	-1   0    0    -1  
 $EndComp
