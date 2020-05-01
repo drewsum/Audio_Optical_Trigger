@@ -1,0 +1,48 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digi-Key PN,display_footprint,Dielectric,Voltage,Tolerance,Ampacity,Wattage,Config
+1,Unpolarized capacitor,C_Custom,C201 C205 C302 C402 C502 C601 C602 C603 C701 C702 C703 C801 C802 C803 C904 C905 C906,0.1uF,C_0603,17,,490-8020-1-ND,0603,X7R,50V,,,,
+2,Polarised capacitor,CP_Tant_Custom,C202,100uF,CP_Tantalum_Case-D_EIA-7343-31_Reflow,1,,478-3919-1-ND,7343,,16V,20%,,,
+3,Unpolarized capacitor,C_Custom,C204 C301 C401 C501 C901 C902 C903,10nF,C_0603,7,,1276-1921-1-ND,0603,X7R,50V,,,,
+4,Unpolarized capacitor,C_Custom,C203,10uF,C_1206,1,,1276-7031-1-ND,1206,X7R,25V,,,,
+5,Unpolarized capacitor,C_Custom,C206 C207,22uF,C_1206,2,,1276-3148-1-ND,1206,X7R,10V,,,,
+6,Single Channel ESD Protection Array,CM1213A-01SO,D301 D401 D501,CM1213A-01SO,SOT-23,3,http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF,CM1213A-01SOOSCT-ND,,,,,,,
+7,"Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6",ESDA6V1BC6,D901,ESDA6V1BC6,SOT-23-6,1,http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf,497-6635-1-ND,,,,,,,
+8,Light emitting diode,LED,D202,GREEN,LED_0603,1,~,160-1446-1-ND,,,,,,,
+9,"300mW Zener Diode, SOD-523",MM5Zxx,D201,MM5Z10V,D_SOD-523,1,https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf,MM5Z10VT1GOSCT-ND,,,,,,,
+10,"300mW Zener Diode, SOD-523",MM5Zxx,D302 D402 D502 D902 D903 D904,MM5Z5V6,D_SOD-523,6,https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf,MM5Z5V6T1GOSCT-ND,,,,,,,
+11,"TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package",SP0503BAHT,D1001 D1002 D1003,SP0503BAHT,SOT-143,3,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,F2715CT-ND,,,,,,,
+12,DC Barrel Jack with an internal switch,Barrel_Jack_Switch,J201,+12VIN,BARREL_JACK,1,~,,,,,,,,
+13,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J901,Group Select,TerminalBlock_Phoenix_PT-3.5mm_4pol,1,~,277-1860-ND,,,,,,,
+14,"Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x03,J302,RX1,TerminalBlock_Phoenix_PT-3.5mm_3pol,1,~,277-1722-ND,,,,,,,
+15,"Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x03,J402,RX2,TerminalBlock_Phoenix_PT-3.5mm_3pol,1,~,277-1722-ND,,,,,,,
+16,"Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x03,J502,RX3,TerminalBlock_Phoenix_PT-3.5mm_3pol,1,~,277-1722-ND,,,,,,,
+17,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J301,TX1,TerminalBlock_Phoenix_PT-3.5mm_2pol,1,~,277-1721-ND,,,,,,,
+18,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J401,TX2,TerminalBlock_Phoenix_PT-3.5mm_2pol,1,~,277-1721-ND,,,,,,,
+19,"Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x02,J501,TX3,TerminalBlock_Phoenix_PT-3.5mm_2pol,1,~,277-1721-ND,,,,,,,
+20,"Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x18_Odd_Even,J1001,Trigger Output,Pin_Header_Straight_2x18_Pitch2.54mm,1,~,732-5309-ND,,,,,,,
+21,Inductor,L_Custom,L201,2.2u,L_Vishay_IHLP-2020,1,,541-1236-1-ND,IHLP2020,,,20%,5.5A,,
+22,"-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8",IRF7404,Q201,IRF7404,SOIC-8_3.9x4.9mm_P1.27mm,1,http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e,IRF7404PBFCT-ND,,,,,,,
+23,Resistor,R_Custom,R301 R401 R501,0,R_0603,3,,311-0.0GRCT-ND,0603,,,1%,,1/10W,
+24,Resistor,R_Custom,R205 R206,10.5k,R_0603,2,,311-10.5KHRCT-ND,0603,,,1%,,1/10W,
+25,Resistor,R_Custom,R302 R402 R502 R901 R902 R903,100,R_0603,6,,RMCF0603FT100RCT-ND,0603,,,1%,,1/10W,
+26,Resistor,R_Custom,R204,100k,R_0603,1,,A106046CT-ND,0603,,,1%,,1/10W,
+27,Resistor,R_Custom,R201 R203 R303 R403 R503 R601 R602 R603 R604 R605 R606 R607 R608 R609 R701 R702 R703 R704 R705 R706 R707 R708 R709 R801 R802 R803 R804 R805 R806 R807 R808 R809 R904 R905 R906,10k,R_0603,35,,RHM10KADCT-ND,0603,,,1%,,1/10W,DNP
+28,Resistor,R_Custom,R202 R207,2k,R_0603,2,,311-2.00KHRCT-ND,0603,,,1%,,1/10W,
+29,"Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5",74LVC1G14_Power,U201 U901 U902 U903,74LVC1G14,SOT-353_SC-70-5,4,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,296-11608-1-ND,,,,,,,
+30,"Single Schmitt Buffer Gate, Low-Voltage CMOS",74LVC1G17_Power,U301 U401 U501,74LVC1G17,SOT-353_SC-70-5,3,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,296-11934-1-ND,,,,,,,
+31,"Single NAND Gate Open Drain, Low-Voltage CMOS",74LVC1G38_Power,U601 U602 U603 U701 U702 U703 U801 U802 U803,74LVC1G38,SOT-353_SC-70-5,9,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,296-17907-1-ND,,,,,,,
+32,"3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16",TPS62130,U202,TPS62130,QFN-16-1EP_3x3mm_Pitch0.5mm,1,http://www.ti.com/lit/ds/symlink/tps62130.pdf,296-37878-1-ND,,,,,,,
+
+
+
+
+
+Component Groups:,32
+Component Count:,120
+Fitted Components:,120
+Number of PCBs:,1
+Total components:,120
+Schematic Version:,A
+Schematic Date:,2019-01-18
+BoM Date:,1/19/2019 3:03:23 PM
+Schematic Source:,C:\Users\Drew Maatman\Documents\KiCad Projects\Projects\Slot Car Projects\Audio_Optical_Trigger\Audio_Optical_Trigger\Audio_Optical_Trigger.sch
+KiCad Version:,Eeschema (5.0.2)-1
