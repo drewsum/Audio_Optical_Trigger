@@ -71,7 +71,7 @@ F 3 "" H 4775 5140 50  0001 C CNN
 F 4 "0603" H 4600 5140 50  0000 R CNN "display_footprint"
 F 5 "50V" H 4600 5040 50  0000 R CNN "Voltage"
 F 6 "X7R" H 4600 4940 50  0000 R CNN "Dielectric"
-F 7 "311-1344-1-ND" H 5175 5540 60  0001 C CNN "Digi-Key PN"
+F 7 "490-8020-1-ND" H 5175 5540 60  0001 C CNN "Digi-Key PN"
 	1    4750 5040
 	1    0    0    -1  
 $EndComp
@@ -176,9 +176,9 @@ Text GLabel 4330 3490 0    40   Output ~ 0
 ~Output_Group_3_Channel_2
 Text GLabel 4330 3590 0    40   Output ~ 0
 ~Output_Group_3_Channel_3
-Text GLabel 4330 2790 0    50   Output ~ 0
+Text GLabel 6130 2590 2    50   Output ~ 0
 Reset_LED
-Text GLabel 4330 2890 0    50   Output ~ 0
+Text GLabel 6130 2490 2    50   Output ~ 0
 Heartbeat_LED
 $Comp
 L power:GND #PWR?
@@ -284,6 +284,7 @@ F 0 "D701" V 9678 1333 50  0000 R CNN
 F 1 "RED" V 9587 1333 50  0000 R CNN
 F 2 "LEDs:LED_0603" H 9640 1450 50  0001 C CNN
 F 3 "~" H 9640 1450 50  0001 C CNN
+F 4 "160-1433-1-ND" H 9640 1450 50  0001 C CNN "Digi-Key PN"
 	1    9640 1450
 	0    -1   -1   0   
 $EndComp
@@ -478,7 +479,7 @@ F 4 "160-1446-1-ND" H 6060 -1710 50  0001 C CNN "Digi-Key PN"
 $EndComp
 Text GLabel 8410 4540 0    50   Input ~ 0
 Heartbeat_LED
-Text GLabel 6130 2190 2    50   Input ~ 0
+Text GLabel 4330 2890 0    50   Input ~ 0
 POS3P3_PGOOD
 $Comp
 L power:+3.3V #PWR0142
@@ -579,4 +580,13 @@ F 3 "" H 5070 4810 50  0001 C CNN
 	1    5070 4810
 	1    0    0    -1  
 $EndComp
+Text GLabel 4330 2490 0    50   Input ~ 0
+Output_Group_Select_1
+Text GLabel 4330 2590 0    50   Input ~ 0
+Output_Group_Select_2
+Text GLabel 4330 2690 0    50   Input ~ 0
+Output_Group_Select_3
+NoConn ~ 6130 2290
+NoConn ~ 6130 2390
+NoConn ~ 4330 2790
 $EndSCHEMATC

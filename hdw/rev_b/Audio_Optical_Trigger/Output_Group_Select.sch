@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 10
+Sheet 8 10
 Title "MP3 Trigger Optical Interface"
 Date "2020-04-30"
 Rev "B"
@@ -101,10 +101,10 @@ AR Path="/5C38ED7E/5C3BCDE1" Ref="D?"  Part="1"
 AR Path="/5C3A0E70/5C3BCDE1" Ref="D?"  Part="1" 
 AR Path="/5C3BC6A7/5C3BCDE1" Ref="D902"  Part="1" 
 F 0 "D902" V 5904 1669 50  0000 L CNN
-F 1 "MM5Z5V6" V 5995 1669 50  0000 L CNN
+F 1 "MM5Z3V6" V 5995 1669 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-523" H 5950 1415 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 5950 1590 50  0001 C CNN
-F 4 "MM5Z5V6T1GOSCT-ND" H 5950 1590 50  0001 C CNN "Digi-Key PN"
+F 4 "SZMM5Z3V6T1GOSCT-ND" H 5950 1590 50  0001 C CNN "Digi-Key PN"
 	1    5950 1590
 	0    1    1    0   
 $EndComp
@@ -286,10 +286,10 @@ AR Path="/5C38ED7E/5C41EF94" Ref="D?"  Part="1"
 AR Path="/5C3A0E70/5C41EF94" Ref="D?"  Part="1" 
 AR Path="/5C3BC6A7/5C41EF94" Ref="D903"  Part="1" 
 F 0 "D903" V 5904 3669 50  0000 L CNN
-F 1 "MM5Z5V6" V 5995 3669 50  0000 L CNN
+F 1 "MM5Z3V6" V 5995 3669 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-523" H 5950 3415 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 5950 3590 50  0001 C CNN
-F 4 "MM5Z5V6T1GOSCT-ND" H 5950 3590 50  0001 C CNN "Digi-Key PN"
+F 4 "SZMM5Z3V6T1GOSCT-ND" H 5950 3590 50  0001 C CNN "Digi-Key PN"
 	1    5950 3590
 	0    1    1    0   
 $EndComp
@@ -471,10 +471,10 @@ AR Path="/5C38ED7E/5C41FCAB" Ref="D?"  Part="1"
 AR Path="/5C3A0E70/5C41FCAB" Ref="D?"  Part="1" 
 AR Path="/5C3BC6A7/5C41FCAB" Ref="D904"  Part="1" 
 F 0 "D904" V 5904 5639 50  0000 L CNN
-F 1 "MM5Z5V6" V 5995 5639 50  0000 L CNN
+F 1 "MM5Z3V6" V 5995 5639 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-523" H 5950 5385 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 5950 5560 50  0001 C CNN
-F 4 "MM5Z5V6T1GOSCT-ND" H 5950 5560 50  0001 C CNN "Digi-Key PN"
+F 4 "SZMM5Z3V6T1GOSCT-ND" H 5950 5560 50  0001 C CNN "Digi-Key PN"
 	1    5950 5560
 	0    1    1    0   
 $EndComp

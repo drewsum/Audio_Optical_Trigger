@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Drew Maatman\Documents\KiCad Projects\Projects\Slot Car Projects\Audio_Optical_Trigger\Audio_Optical_Trigger\Audio_Optical_Trigger.sch</source>
-    <date>1/19/2019 3:03:23 PM</date>
-    <tool>Eeschema (5.0.2)-1</tool>
+    <source>C:\Users\Drew Maatman\Documents\KiCad Projects\Projects\Slot Car Projects\Audio_Optical_Trigger\hdw\rev_b\Audio_Optical_Trigger\Audio_Optical_Trigger.sch</source>
+    <date>5/2/2020 5:11:01 PM</date>
+    <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Audio_Optical_Trigger.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -21,8 +21,8 @@
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Power.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -34,8 +34,8 @@
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Input_Channel_1.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -47,8 +47,8 @@
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Input_Channel_2.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -60,8 +60,8 @@
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Input_Channel_3.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -69,51 +69,38 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Output Group 1/" tstamps="/5C3A87FE/">
+    <sheet number="6" name="/PIC18F Programming/" tstamps="/5EABB165/">
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
-        <source>Output_Group_1.sch</source>
+        <rev>B</rev>
+        <date>2020-04-30</date>
+        <source>PIC18F_Programming.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="7" name="/Output Group 2/" tstamps="/5C41B1E2/">
+    <sheet number="7" name="/PIC18F/" tstamps="/5EABB16B/">
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
-        <source>Output_Group_2.sch</source>
+        <rev>B</rev>
+        <date>2020-04-30</date>
+        <source>PIC18F.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/Output Group 3/" tstamps="/5C41B1E5/">
+    <sheet number="8" name="/Output Group Select/" tstamps="/5C3BC6A7/">
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
-        <source>Output_Group_3.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="9" name="/Output Group Select/" tstamps="/5C3BC6A7/">
-      <title_block>
-        <title>MP3 Trigger Optical Interface</title>
-        <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Output_Group_Select.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -121,13 +108,26 @@
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="10" name="/Output Header/" tstamps="/5C3A1138/">
+    <sheet number="9" name="/Output Header/" tstamps="/5C3A1138/">
       <title_block>
         <title>MP3 Trigger Optical Interface</title>
         <company>Drew Maatman</company>
-        <rev>A</rev>
-        <date>2019-01-18</date>
+        <rev>B</rev>
+        <date>2020-04-30</date>
         <source>Output_Header.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Mechanical/" tstamps="/5C4420F4/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>B</rev>
+        <date>2020-04-30</date>
+        <source>Mechanical.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -294,7 +294,7 @@
     </comp>
     <comp ref="Q201">
       <value>IRF7404</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <datasheet>http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e</datasheet>
       <fields>
         <field name="Digi-Key PN">IRF7404PBFCT-ND</field>
@@ -305,7 +305,7 @@
     </comp>
     <comp ref="D201">
       <value>MM5Z10V</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
         <field name="Digi-Key PN">MM5Z10VT1GOSCT-ND</field>
@@ -442,11 +442,11 @@
       <tstamp>5C3A1BD4</tstamp>
     </comp>
     <comp ref="D302">
-      <value>MM5Z5V6</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>MM5Z3V6</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+        <field name="Digi-Key PN">SZMM5Z3V6T1GOSCT-ND</field>
       </fields>
       <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
       <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
@@ -562,11 +562,11 @@
       <tstamp>5C417EF4</tstamp>
     </comp>
     <comp ref="D402">
-      <value>MM5Z5V6</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>MM5Z3V6</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+        <field name="Digi-Key PN">SZMM5Z3V6T1GOSCT-ND</field>
       </fields>
       <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
       <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
@@ -682,11 +682,11 @@
       <tstamp>5C4186A7</tstamp>
     </comp>
     <comp ref="D502">
-      <value>MM5Z5V6</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>MM5Z3V6</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+        <field name="Digi-Key PN">SZMM5Z3V6T1GOSCT-ND</field>
       </fields>
       <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
       <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
@@ -775,56 +775,13 @@
       <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
       <tstamp>5C41873F</tstamp>
     </comp>
-    <comp ref="R607">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C3BB03B</tstamp>
-    </comp>
-    <comp ref="R604">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C3BB9FC</tstamp>
-    </comp>
-    <comp ref="R601">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C3BBA5C</tstamp>
-    </comp>
-    <comp ref="U601">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C36E72A</tstamp>
+    <comp ref="J601">
+      <value>PICKIT3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/PIC18F Programming/" tstamps="/5EABB165/"/>
+      <tstamp>5BB4A695</tstamp>
     </comp>
     <comp ref="C601">
       <value>0.1uF</value>
@@ -836,187 +793,19 @@
         <field name="display_footprint">0603</field>
       </fields>
       <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C418FD7</tstamp>
-    </comp>
-    <comp ref="R608">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C4195F4</tstamp>
-    </comp>
-    <comp ref="R605">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419607</tstamp>
-    </comp>
-    <comp ref="R602">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419612</tstamp>
-    </comp>
-    <comp ref="U602">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419630</tstamp>
-    </comp>
-    <comp ref="C602">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C41963D</tstamp>
-    </comp>
-    <comp ref="R609">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419915</tstamp>
-    </comp>
-    <comp ref="R606">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419928</tstamp>
-    </comp>
-    <comp ref="R603">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419933</tstamp>
-    </comp>
-    <comp ref="U603">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C419951</tstamp>
-    </comp>
-    <comp ref="C603">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
-      <tstamp>5C41995E</tstamp>
-    </comp>
-    <comp ref="R707">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B895</tstamp>
-    </comp>
-    <comp ref="R704">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B8A8</tstamp>
-    </comp>
-    <comp ref="R701">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B8B3</tstamp>
+      <sheetpath names="/PIC18F Programming/" tstamps="/5EABB165/"/>
+      <tstamp>5BC13497</tstamp>
     </comp>
     <comp ref="U701">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <value>PIC18F27K40T-I_ML</value>
+      <footprint>Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18LF27_47K40-Data-Sheet-40001844E.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
+        <field name="Digi-Key PN">PIC18F27K40T-I/MLCT-ND</field>
       </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B8D1</tstamp>
+      <libsource lib="Custom_Library" part="PIC18(L)F27K40T-I_ML" description="PIC18(L)F 8 bit Microcontroller, High Performance, 64 MHz, 128k FLASH, 3k SRAM, 1k EEPROM, QFN-28"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5C1E0C04</tstamp>
     </comp>
     <comp ref="C701">
       <value>0.1uF</value>
@@ -1028,35 +817,132 @@
         <field name="display_footprint">0603</field>
       </fields>
       <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B8DE</tstamp>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5C1E299E</tstamp>
     </comp>
-    <comp ref="R708">
+    <comp ref="C702">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5C1E29D8</tstamp>
+    </comp>
+    <comp ref="C703">
+      <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1018-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5C1E2E7C</tstamp>
+    </comp>
+    <comp ref="C704">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EACC5C5</tstamp>
+    </comp>
+    <comp ref="U702">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G14_Power" description="Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EACC5D8</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-2.00KHRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EACC5E3</tstamp>
+    </comp>
+    <comp ref="D701">
+      <value>RED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">160-1433-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EACC5EA</tstamp>
+    </comp>
+    <comp ref="R701">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Config">DNP</field>
         <field name="Digi-Key PN">RHM10KADCT-ND</field>
         <field name="Tolerance">1%</field>
         <field name="Wattage">1/10W</field>
         <field name="display_footprint">0603</field>
       </fields>
       <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B902</tstamp>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EACE4A0</tstamp>
     </comp>
-    <comp ref="R705">
-      <value>10k</value>
+    <comp ref="C705">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EAEED19</tstamp>
+    </comp>
+    <comp ref="U703">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G14_Power" description="Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EAEED2C</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>2k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Digi-Key PN">311-2.00KHRCT-ND</field>
         <field name="Tolerance">1%</field>
         <field name="Wattage">1/10W</field>
         <field name="display_footprint">0603</field>
       </fields>
       <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B915</tstamp>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EAEED36</tstamp>
     </comp>
     <comp ref="R702">
       <value>10k</value>
@@ -1068,288 +954,19 @@
         <field name="display_footprint">0603</field>
       </fields>
       <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B920</tstamp>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EAEED4E</tstamp>
     </comp>
-    <comp ref="U702">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+    <comp ref="D702">
+      <value>GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
       <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
+        <field name="Digi-Key PN">160-1446-1-ND</field>
       </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B93E</tstamp>
-    </comp>
-    <comp ref="C702">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B94B</tstamp>
-    </comp>
-    <comp ref="R709">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B96F</tstamp>
-    </comp>
-    <comp ref="R706">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B982</tstamp>
-    </comp>
-    <comp ref="R703">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B98D</tstamp>
-    </comp>
-    <comp ref="U703">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B9AB</tstamp>
-    </comp>
-    <comp ref="C703">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
-      <tstamp>5C41B9B8</tstamp>
-    </comp>
-    <comp ref="R807">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BEEF</tstamp>
-    </comp>
-    <comp ref="R804">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF02</tstamp>
-    </comp>
-    <comp ref="R801">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF0D</tstamp>
-    </comp>
-    <comp ref="U801">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF2B</tstamp>
-    </comp>
-    <comp ref="C801">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF38</tstamp>
-    </comp>
-    <comp ref="R808">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF5C</tstamp>
-    </comp>
-    <comp ref="R805">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF6F</tstamp>
-    </comp>
-    <comp ref="R802">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF7A</tstamp>
-    </comp>
-    <comp ref="U802">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BF98</tstamp>
-    </comp>
-    <comp ref="C802">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BFA5</tstamp>
-    </comp>
-    <comp ref="R809">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Config">DNP</field>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BFC9</tstamp>
-    </comp>
-    <comp ref="R806">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BFDC</tstamp>
-    </comp>
-    <comp ref="R803">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <fields>
-        <field name="Digi-Key PN">RHM10KADCT-ND</field>
-        <field name="Tolerance">1%</field>
-        <field name="Wattage">1/10W</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41BFE7</tstamp>
-    </comp>
-    <comp ref="U803">
-      <value>74LVC1G38</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
-      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
-      <fields>
-        <field name="Digi-Key PN">296-17907-1-ND</field>
-      </fields>
-      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41C005</tstamp>
-    </comp>
-    <comp ref="C803">
-      <value>0.1uF</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Dielectric">X7R</field>
-        <field name="Digi-Key PN">490-8020-1-ND</field>
-        <field name="Voltage">50V</field>
-        <field name="display_footprint">0603</field>
-      </fields>
-      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
-      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
-      <tstamp>5C41C012</tstamp>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/PIC18F/" tstamps="/5EABB16B/"/>
+      <tstamp>5EAF22FB</tstamp>
     </comp>
     <comp ref="C904">
       <value>0.1uF</value>
@@ -1378,11 +995,11 @@
       <tstamp>5C3BCDD1</tstamp>
     </comp>
     <comp ref="D902">
-      <value>MM5Z5V6</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>MM5Z3V6</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+        <field name="Digi-Key PN">SZMM5Z3V6T1GOSCT-ND</field>
       </fields>
       <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
       <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
@@ -1452,11 +1069,11 @@
       <tstamp>5C41EF84</tstamp>
     </comp>
     <comp ref="D903">
-      <value>MM5Z5V6</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>MM5Z3V6</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+        <field name="Digi-Key PN">SZMM5Z3V6T1GOSCT-ND</field>
       </fields>
       <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
       <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
@@ -1526,11 +1143,11 @@
       <tstamp>5C41FC9B</tstamp>
     </comp>
     <comp ref="D904">
-      <value>MM5Z5V6</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>MM5Z3V6</value>
+      <footprint>Diodes_SMD:D_SOD-523</footprint>
       <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
       <fields>
-        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+        <field name="Digi-Key PN">SZMM5Z3V6T1GOSCT-ND</field>
       </fields>
       <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
       <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
@@ -1639,6 +1256,38 @@
       <sheetpath names="/Output Header/" tstamps="/5C3A1138/"/>
       <tstamp>5C435AB8</tstamp>
     </comp>
+    <comp ref="H1101">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Mechanical/" tstamps="/5C4420F4/"/>
+      <tstamp>5C44B7FA</tstamp>
+    </comp>
+    <comp ref="H1103">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Mechanical/" tstamps="/5C4420F4/"/>
+      <tstamp>5C44B83B</tstamp>
+    </comp>
+    <comp ref="H1102">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Mechanical/" tstamps="/5C4420F4/"/>
+      <tstamp>5C44B8EF</tstamp>
+    </comp>
+    <comp ref="H1104">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/Mechanical/" tstamps="/5C4420F4/"/>
+      <tstamp>5C44B8F6</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Barrel_Jack_Switch">
@@ -1703,6 +1352,25 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x18_Odd_Even">
@@ -1790,25 +1458,6 @@
         <pin num="5" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Custom_Library" part="74LVC1G38_Power">
-      <description>Single NAND Gate Open Drain, Low-Voltage CMOS</description>
-      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
-      <footprints>
-        <fp>SOT*</fp>
-        <fp>SG-*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">74LVC1G38_Power</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="~" type="output"/>
-        <pin num="5" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Custom_Library" part="CP_Tant_Custom">
       <description>Polarised capacitor</description>
       <footprints>
@@ -1864,6 +1513,51 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Custom_Library" part="PIC18(L)F27K40T-I_ML">
+      <description>PIC18(L)F 8 bit Microcontroller, High Performance, 64 MHz, 128k FLASH, 3k SRAM, 1k EEPROM, QFN-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18LF27_47K40-Data-Sheet-40001844E.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*8x8mm*Pitch0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC18(L)F27K40T-I_ML</field>
+        <field name="Footprint">Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18LF27_47K40-Data-Sheet-40001844E.pdf</field>
+        <field name="Digi-Key PN">PIC18F27K40T-I/MLCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RA2" type="BiDi"/>
+        <pin num="2" name="RA3" type="BiDi"/>
+        <pin num="3" name="RA4" type="BiDi"/>
+        <pin num="4" name="RA5" type="BiDi"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="RA7/OSC1/CLKIN" type="input"/>
+        <pin num="7" name="RA6/OSC2/CLKOUT" type="input"/>
+        <pin num="8" name="SOSCO/RC0" type="BiDi"/>
+        <pin num="9" name="SOSCI/RC1" type="BiDi"/>
+        <pin num="10" name="RC2" type="BiDi"/>
+        <pin num="11" name="RC3" type="BiDi"/>
+        <pin num="12" name="RC4" type="BiDi"/>
+        <pin num="13" name="RC5" type="BiDi"/>
+        <pin num="14" name="RC6" type="BiDi"/>
+        <pin num="15" name="RC7" type="BiDi"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="RB0" type="BiDi"/>
+        <pin num="19" name="RB1" type="BiDi"/>
+        <pin num="20" name="RB2" type="BiDi"/>
+        <pin num="21" name="RB3" type="BiDi"/>
+        <pin num="22" name="RB4" type="BiDi"/>
+        <pin num="23" name="RB5" type="BiDi"/>
+        <pin num="24" name="RB6/ICSPCLK" type="BiDi"/>
+        <pin num="25" name="RB7/ICSPDAT" type="BiDi"/>
+        <pin num="26" name="RE3/~MCLR~/Vpp" type="BiDi"/>
+        <pin num="27" name="RA0" type="BiDi"/>
+        <pin num="28" name="RA1" type="BiDi"/>
+        <pin num="29" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="Custom_Library" part="R_Custom">
       <description>Resistor</description>
       <fields>
@@ -1884,6 +1578,8 @@
       <fields>
         <field name="Reference">TP</field>
         <field name="Value">TP</field>
+        <field name="Footprint">TestPoint:TestPoint_Keystone_5005-5009_Compact</field>
+        <field name="Digi-Key PN">36-5005-ND</field>
       </fields>
       <pins>
         <pin num="1" name="TP" type="passive"/>
@@ -1937,6 +1633,26 @@
       </pins>
     </libpart>
     <libpart lib="Diode" part="MM5Zxx">
+      <aliases>
+        <alias>DZ2S030X0L</alias>
+        <alias>DZ2S033X0L</alias>
+        <alias>DZ2S036X0L</alias>
+        <alias>DZ2S039X0L</alias>
+        <alias>DZ2S047X0L</alias>
+        <alias>DZ2S051X0L</alias>
+        <alias>DZ2S056X0L</alias>
+        <alias>DZ2S068X0L</alias>
+        <alias>DZ2S082X0L</alias>
+        <alias>DZ2S100X0L</alias>
+        <alias>DZ2S120X0L</alias>
+        <alias>DZ2S130X0L</alias>
+        <alias>DZ2S150X0L</alias>
+        <alias>DZ2S160X0L</alias>
+        <alias>DZ2S180X0L</alias>
+        <alias>DZ2S200X0L</alias>
+        <alias>DZ2S360X0L</alias>
+        <alias>DZ2S110X0L</alias>
+      </aliases>
       <description>300mW Zener Diode, SOD-523</description>
       <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</docs>
       <footprints>
@@ -1951,6 +1667,17 @@
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
     </libpart>
     <libpart lib="Power_Protection" part="CM1213A-01SO">
       <description>Single Channel ESD Protection Array</description>
@@ -2008,6 +1735,9 @@
       </pins>
     </libpart>
     <libpart lib="Transistor_FET" part="IRF7404">
+      <aliases>
+        <alias>FDS9435A</alias>
+      </aliases>
       <description>-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8</description>
       <docs>http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e</docs>
       <footprints>
@@ -2038,13 +1768,16 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Custom_Library">
-      <uri>C:\Users\Drew Maatman\Documents\KiCad Projects\Libraries\KiCad_Custom_Libraries/Custom Library.lib</uri>
+      <uri>C:/Users/Drew Maatman/Documents/KiCad Projects/Libraries/KiCad_Custom_Libraries/Custom Library.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="Diode">
       <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
     <library logical="Power_Protection">
       <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
@@ -2055,230 +1788,194 @@
   </libraries>
   <nets>
     <net code="1" name="Net-(D201-Pad2)">
-      <node ref="R201" pin="1"/>
       <node ref="Q201" pin="4"/>
       <node ref="D201" pin="2"/>
+      <node ref="R201" pin="1"/>
     </net>
     <net code="2" name="Net-(J201-Pad1)">
+      <node ref="Q201" pin="5"/>
       <node ref="Q201" pin="6"/>
       <node ref="J201" pin="1"/>
-      <node ref="Q201" pin="5"/>
       <node ref="Q201" pin="7"/>
       <node ref="Q201" pin="8"/>
     </net>
     <net code="3" name="GND">
-      <node ref="R604" pin="2"/>
-      <node ref="R601" pin="2"/>
-      <node ref="C601" pin="2"/>
-      <node ref="U601" pin="3"/>
-      <node ref="U903" pin="3"/>
-      <node ref="U603" pin="3"/>
-      <node ref="R605" pin="2"/>
-      <node ref="R602" pin="2"/>
-      <node ref="C903" pin="2"/>
-      <node ref="C603" pin="2"/>
-      <node ref="R603" pin="2"/>
-      <node ref="R606" pin="2"/>
-      <node ref="D902" pin="2"/>
-      <node ref="J901" pin="4"/>
-      <node ref="C904" pin="2"/>
-      <node ref="C901" pin="2"/>
-      <node ref="U901" pin="3"/>
-      <node ref="D901" pin="5"/>
-      <node ref="D901" pin="2"/>
-      <node ref="D904" pin="2"/>
-      <node ref="C906" pin="2"/>
-      <node ref="J1001" pin="4"/>
-      <node ref="J1001" pin="2"/>
-      <node ref="J1001" pin="18"/>
-      <node ref="J1001" pin="16"/>
-      <node ref="J1001" pin="14"/>
-      <node ref="J1001" pin="12"/>
-      <node ref="J1001" pin="10"/>
-      <node ref="J1001" pin="32"/>
-      <node ref="J1001" pin="6"/>
-      <node ref="J1001" pin="20"/>
-      <node ref="J1001" pin="36"/>
-      <node ref="J1001" pin="34"/>
-      <node ref="J1001" pin="8"/>
-      <node ref="J1001" pin="30"/>
-      <node ref="J1001" pin="28"/>
-      <node ref="J1001" pin="26"/>
-      <node ref="D1002" pin="1"/>
-      <node ref="J1001" pin="24"/>
-      <node ref="J1001" pin="22"/>
-      <node ref="C602" pin="2"/>
-      <node ref="U602" pin="3"/>
-      <node ref="D1001" pin="1"/>
       <node ref="D1003" pin="1"/>
+      <node ref="D1001" pin="1"/>
+      <node ref="J1001" pin="34"/>
+      <node ref="C903" pin="2"/>
+      <node ref="U903" pin="3"/>
       <node ref="R702" pin="2"/>
-      <node ref="R705" pin="2"/>
-      <node ref="R704" pin="2"/>
-      <node ref="C701" pin="2"/>
-      <node ref="U701" pin="3"/>
-      <node ref="C703" pin="2"/>
-      <node ref="C802" pin="2"/>
-      <node ref="U703" pin="3"/>
-      <node ref="R703" pin="2"/>
-      <node ref="R706" pin="2"/>
-      <node ref="R701" pin="2"/>
-      <node ref="R801" pin="2"/>
-      <node ref="R804" pin="2"/>
-      <node ref="U801" pin="3"/>
-      <node ref="R802" pin="2"/>
-      <node ref="R805" pin="2"/>
-      <node ref="C801" pin="2"/>
-      <node ref="U802" pin="3"/>
-      <node ref="C803" pin="2"/>
-      <node ref="U803" pin="3"/>
-      <node ref="R803" pin="2"/>
-      <node ref="R806" pin="2"/>
-      <node ref="C402" pin="2"/>
-      <node ref="D401" pin="3"/>
-      <node ref="J402" pin="3"/>
+      <node ref="J901" pin="4"/>
+      <node ref="C704" pin="2"/>
+      <node ref="U702" pin="3"/>
+      <node ref="D901" pin="2"/>
       <node ref="C902" pin="2"/>
       <node ref="U902" pin="3"/>
-      <node ref="C905" pin="2"/>
-      <node ref="D903" pin="2"/>
-      <node ref="D402" pin="2"/>
-      <node ref="C401" pin="2"/>
-      <node ref="J502" pin="3"/>
-      <node ref="D502" pin="2"/>
-      <node ref="C502" pin="2"/>
-      <node ref="J501" pin="2"/>
-      <node ref="U501" pin="3"/>
-      <node ref="U702" pin="3"/>
-      <node ref="C702" pin="2"/>
-      <node ref="J401" pin="2"/>
-      <node ref="U401" pin="3"/>
-      <node ref="D501" pin="3"/>
-      <node ref="C501" pin="2"/>
-      <node ref="R205" pin="2"/>
-      <node ref="C203" pin="2"/>
-      <node ref="C302" pin="2"/>
-      <node ref="D302" pin="2"/>
-      <node ref="U201" pin="3"/>
+      <node ref="C906" pin="2"/>
+      <node ref="D904" pin="2"/>
+      <node ref="D301" pin="3"/>
       <node ref="C301" pin="2"/>
-      <node ref="U202" pin="8"/>
-      <node ref="U202" pin="6"/>
-      <node ref="U301" pin="3"/>
+      <node ref="J1001" pin="18"/>
+      <node ref="D1002" pin="1"/>
+      <node ref="J1001" pin="26"/>
+      <node ref="J1001" pin="28"/>
+      <node ref="J1001" pin="30"/>
+      <node ref="J1001" pin="8"/>
+      <node ref="D902" pin="2"/>
+      <node ref="J1001" pin="36"/>
+      <node ref="J1001" pin="4"/>
+      <node ref="J1001" pin="6"/>
+      <node ref="J1001" pin="32"/>
+      <node ref="J1001" pin="10"/>
+      <node ref="J1001" pin="12"/>
+      <node ref="J1001" pin="14"/>
+      <node ref="J1001" pin="16"/>
+      <node ref="J1001" pin="2"/>
+      <node ref="J1001" pin="20"/>
+      <node ref="J1001" pin="22"/>
+      <node ref="J1001" pin="24"/>
+      <node ref="D501" pin="3"/>
+      <node ref="U701" pin="5"/>
+      <node ref="C501" pin="2"/>
+      <node ref="U401" pin="3"/>
+      <node ref="J402" pin="3"/>
+      <node ref="J401" pin="2"/>
+      <node ref="C601" pin="2"/>
+      <node ref="J601" pin="3"/>
+      <node ref="C502" pin="2"/>
+      <node ref="D502" pin="2"/>
+      <node ref="D402" pin="2"/>
+      <node ref="U501" pin="3"/>
+      <node ref="J501" pin="2"/>
+      <node ref="J502" pin="3"/>
+      <node ref="U701" pin="29"/>
+      <node ref="U901" pin="3"/>
+      <node ref="D903" pin="2"/>
+      <node ref="C901" pin="2"/>
+      <node ref="C705" pin="2"/>
+      <node ref="U703" pin="3"/>
+      <node ref="C402" pin="2"/>
+      <node ref="U701" pin="16"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C703" pin="2"/>
+      <node ref="C702" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="D401" pin="3"/>
+      <node ref="C904" pin="2"/>
+      <node ref="D901" pin="5"/>
+      <node ref="C905" pin="2"/>
       <node ref="J201" pin="2"/>
       <node ref="TP201" pin="1"/>
-      <node ref="J301" pin="2"/>
-      <node ref="J302" pin="3"/>
-      <node ref="C204" pin="2"/>
-      <node ref="U202" pin="7"/>
-      <node ref="C206" pin="2"/>
-      <node ref="J201" pin="3"/>
-      <node ref="C202" pin="2"/>
-      <node ref="U202" pin="15"/>
-      <node ref="R207" pin="2"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C201" pin="2"/>
-      <node ref="U202" pin="16"/>
       <node ref="C207" pin="2"/>
-      <node ref="D301" pin="3"/>
       <node ref="U202" pin="17"/>
+      <node ref="U202" pin="16"/>
       <node ref="R201" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="R207" pin="2"/>
+      <node ref="U202" pin="15"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R205" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="U301" pin="3"/>
+      <node ref="C202" pin="2"/>
+      <node ref="J201" pin="3"/>
+      <node ref="D302" pin="2"/>
+      <node ref="U202" pin="8"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="U202" pin="7"/>
+      <node ref="U202" pin="6"/>
+      <node ref="J302" pin="3"/>
+      <node ref="C203" pin="2"/>
+      <node ref="J301" pin="2"/>
     </net>
-    <net code="4" name="+5V">
-      <node ref="C906" pin="1"/>
-      <node ref="U601" pin="5"/>
-      <node ref="R401" pin="1"/>
-      <node ref="C601" pin="1"/>
-      <node ref="R206" pin="1"/>
-      <node ref="U202" pin="14"/>
-      <node ref="R608" pin="1"/>
-      <node ref="R403" pin="1"/>
-      <node ref="C207" pin="1"/>
-      <node ref="U201" pin="5"/>
-      <node ref="C701" pin="1"/>
-      <node ref="R708" pin="1"/>
-      <node ref="U701" pin="5"/>
-      <node ref="C904" pin="1"/>
-      <node ref="C905" pin="1"/>
-      <node ref="R905" pin="1"/>
-      <node ref="U902" pin="5"/>
-      <node ref="R809" pin="1"/>
-      <node ref="D202" pin="2"/>
-      <node ref="C802" pin="1"/>
-      <node ref="R707" pin="1"/>
-      <node ref="U802" pin="5"/>
-      <node ref="U903" pin="5"/>
-      <node ref="TP203" pin="1"/>
-      <node ref="C803" pin="1"/>
-      <node ref="U803" pin="5"/>
-      <node ref="R906" pin="1"/>
-      <node ref="R904" pin="1"/>
-      <node ref="U901" pin="5"/>
-      <node ref="U703" pin="5"/>
-      <node ref="C703" pin="1"/>
-      <node ref="C801" pin="1"/>
-      <node ref="C302" pin="1"/>
-      <node ref="R303" pin="1"/>
-      <node ref="R301" pin="1"/>
-      <node ref="D501" pin="2"/>
-      <node ref="U602" pin="5"/>
-      <node ref="C602" pin="1"/>
-      <node ref="C201" pin="1"/>
-      <node ref="U501" pin="5"/>
-      <node ref="R501" pin="1"/>
-      <node ref="J502" pin="1"/>
-      <node ref="U801" pin="5"/>
-      <node ref="U702" pin="5"/>
-      <node ref="C702" pin="1"/>
-      <node ref="L201" pin="2"/>
-      <node ref="R203" pin="1"/>
-      <node ref="D301" pin="2"/>
-      <node ref="R503" pin="1"/>
-      <node ref="C502" pin="1"/>
-      <node ref="C402" pin="1"/>
-      <node ref="R807" pin="1"/>
-      <node ref="C206" pin="1"/>
-      <node ref="R709" pin="1"/>
-      <node ref="J402" pin="1"/>
-      <node ref="U401" pin="5"/>
-      <node ref="U603" pin="5"/>
-      <node ref="C603" pin="1"/>
-      <node ref="U301" pin="5"/>
-      <node ref="J302" pin="1"/>
-      <node ref="R609" pin="1"/>
-      <node ref="D401" pin="2"/>
-      <node ref="R607" pin="1"/>
-      <node ref="R808" pin="1"/>
-    </net>
-    <net code="5" name="Net-(L201-Pad1)">
+    <net code="4" name="Net-(L201-Pad1)">
       <node ref="U202" pin="3"/>
+      <node ref="L201" pin="1"/>
       <node ref="U202" pin="2"/>
       <node ref="U202" pin="1"/>
-      <node ref="L201" pin="1"/>
     </net>
-    <net code="6" name="Net-(D202-Pad1)">
-      <node ref="R202" pin="1"/>
+    <net code="5" name="+3V3">
+      <node ref="C904" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U901" pin="5"/>
+      <node ref="C703" pin="1"/>
+      <node ref="R905" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="C701" pin="1"/>
+      <node ref="U701" pin="17"/>
+      <node ref="C402" pin="1"/>
+      <node ref="U703" pin="5"/>
+      <node ref="C702" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="C302" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="L201" pin="2"/>
+      <node ref="D401" pin="2"/>
+      <node ref="C905" pin="1"/>
+      <node ref="D702" pin="2"/>
+      <node ref="TP203" pin="1"/>
+      <node ref="R501" pin="1"/>
+      <node ref="D501" pin="2"/>
+      <node ref="D202" pin="2"/>
+      <node ref="J601" pin="2"/>
+      <node ref="C601" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="U501" pin="5"/>
+      <node ref="J502" pin="1"/>
+      <node ref="J402" pin="1"/>
+      <node ref="U401" pin="5"/>
+      <node ref="R403" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="U702" pin="5"/>
+      <node ref="R303" pin="1"/>
+      <node ref="C207" pin="1"/>
+      <node ref="D701" pin="2"/>
+      <node ref="U902" pin="5"/>
+      <node ref="J302" pin="1"/>
+      <node ref="C906" pin="1"/>
+      <node ref="R906" pin="1"/>
+      <node ref="R701" pin="1"/>
+      <node ref="U301" pin="5"/>
+      <node ref="U202" pin="14"/>
+      <node ref="D301" pin="2"/>
+      <node ref="R904" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="U903" pin="5"/>
+      <node ref="C704" pin="1"/>
+      <node ref="R206" pin="1"/>
+      <node ref="C705" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R202-Pad2)">
+      <node ref="U201" pin="4"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D202-Pad1)">
       <node ref="D202" pin="1"/>
+      <node ref="R202" pin="1"/>
     </net>
-    <net code="7" name="POS5_PGOOD">
+    <net code="8" name="POS3P3_PGOOD">
       <node ref="U201" pin="2"/>
       <node ref="U202" pin="4"/>
       <node ref="R203" pin="2"/>
-    </net>
-    <net code="8" name="Net-(R202-Pad2)">
-      <node ref="R202" pin="2"/>
-      <node ref="U201" pin="4"/>
+      <node ref="U701" pin="6"/>
     </net>
     <net code="9" name="+12V">
-      <node ref="C205" pin="1"/>
-      <node ref="TP202" pin="1"/>
-      <node ref="R204" pin="1"/>
-      <node ref="D201" pin="1"/>
-      <node ref="C202" pin="1"/>
-      <node ref="Q201" pin="1"/>
-      <node ref="C203" pin="1"/>
-      <node ref="U202" pin="10"/>
-      <node ref="U202" pin="11"/>
       <node ref="U202" pin="12"/>
-      <node ref="Q201" pin="3"/>
+      <node ref="U202" pin="11"/>
+      <node ref="Q201" pin="1"/>
+      <node ref="TP202" pin="1"/>
       <node ref="Q201" pin="2"/>
+      <node ref="U202" pin="10"/>
+      <node ref="Q201" pin="3"/>
+      <node ref="R204" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="D201" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C205" pin="1"/>
     </net>
     <net code="10" name="Net-(R204-Pad2)">
       <node ref="R205" pin="1"/>
@@ -2290,34 +1987,29 @@
       <node ref="C204" pin="1"/>
     </net>
     <net code="12" name="Net-(R206-Pad2)">
+      <node ref="R207" pin="1"/>
       <node ref="R206" pin="2"/>
       <node ref="U202" pin="5"/>
-      <node ref="R207" pin="1"/>
     </net>
-    <net code="13" name="/Input Channel 1/YELLOW">
-      <node ref="J302" pin="2"/>
-      <node ref="R302" pin="2"/>
-      <node ref="D301" pin="1"/>
-    </net>
-    <net code="14" name="Net-(J301-Pad1)">
+    <net code="13" name="Net-(J301-Pad1)">
       <node ref="R301" pin="2"/>
       <node ref="J301" pin="1"/>
     </net>
-    <net code="15" name="Input_Channel_1">
+    <net code="14" name="Input_Channel_1">
       <node ref="U301" pin="4"/>
-      <node ref="R604" pin="1"/>
-      <node ref="R804" pin="1"/>
-      <node ref="U801" pin="2"/>
-      <node ref="U701" pin="2"/>
-      <node ref="U601" pin="2"/>
-      <node ref="R704" pin="1"/>
+      <node ref="U701" pin="27"/>
+    </net>
+    <net code="15" name="/Input Channel 1/YELLOW">
+      <node ref="D301" pin="1"/>
+      <node ref="R302" pin="2"/>
+      <node ref="J302" pin="2"/>
     </net>
     <net code="16" name="Net-(C301-Pad1)">
+      <node ref="U301" pin="2"/>
+      <node ref="R303" pin="2"/>
+      <node ref="D302" pin="1"/>
       <node ref="R302" pin="1"/>
       <node ref="C301" pin="1"/>
-      <node ref="U301" pin="2"/>
-      <node ref="D302" pin="1"/>
-      <node ref="R303" pin="2"/>
     </net>
     <net code="17" name="Net-(J1001-Pad23)">
       <node ref="J1001" pin="23"/>
@@ -2346,175 +2038,194 @@
     <net code="25" name="Net-(J1001-Pad27)">
       <node ref="J1001" pin="27"/>
     </net>
-    <net code="26" name="~Output_Group_1_Channel_1">
-      <node ref="R607" pin="2"/>
-      <node ref="D1001" pin="2"/>
-      <node ref="U601" pin="4"/>
-      <node ref="J1001" pin="1"/>
-    </net>
-    <net code="27" name="~Output_Group_1_Channel_3">
-      <node ref="D1001" pin="4"/>
-      <node ref="U603" pin="4"/>
+    <net code="26" name="~Output_Group_1_Channel_3">
       <node ref="J1001" pin="5"/>
-      <node ref="R609" pin="2"/>
+      <node ref="D1001" pin="2"/>
+      <node ref="U701" pin="15"/>
+    </net>
+    <net code="27" name="~Output_Group_1_Channel_1">
+      <node ref="U701" pin="13"/>
+      <node ref="J1001" pin="1"/>
+      <node ref="D1001" pin="4"/>
     </net>
     <net code="28" name="~Output_Group_1_Channel_2">
+      <node ref="U701" pin="14"/>
       <node ref="J1001" pin="3"/>
-      <node ref="R608" pin="2"/>
       <node ref="D1001" pin="3"/>
-      <node ref="U602" pin="4"/>
     </net>
-    <net code="29" name="~Output_Group_2_Channel_1">
-      <node ref="U701" pin="4"/>
-      <node ref="R707" pin="2"/>
-      <node ref="J1001" pin="7"/>
+    <net code="29" name="~Output_Group_2_Channel_3">
+      <node ref="U701" pin="20"/>
       <node ref="D1002" pin="2"/>
+      <node ref="J1001" pin="11"/>
     </net>
-    <net code="30" name="~Output_Group_3_Channel_3">
-      <node ref="J1001" pin="17"/>
-      <node ref="R809" pin="2"/>
+    <net code="30" name="~Output_Group_3_Channel_1">
+      <node ref="J1001" pin="13"/>
       <node ref="D1003" pin="4"/>
-      <node ref="U803" pin="4"/>
+      <node ref="U701" pin="21"/>
     </net>
     <net code="31" name="~Output_Group_3_Channel_2">
       <node ref="D1003" pin="3"/>
-      <node ref="R808" pin="2"/>
       <node ref="J1001" pin="15"/>
-      <node ref="U802" pin="4"/>
+      <node ref="U701" pin="22"/>
     </net>
-    <net code="32" name="~Output_Group_3_Channel_1">
-      <node ref="R807" pin="2"/>
-      <node ref="U801" pin="4"/>
-      <node ref="J1001" pin="13"/>
+    <net code="32" name="~Output_Group_3_Channel_3">
+      <node ref="U701" pin="23"/>
       <node ref="D1003" pin="2"/>
+      <node ref="J1001" pin="17"/>
     </net>
-    <net code="33" name="~Output_Group_2_Channel_3">
-      <node ref="R709" pin="2"/>
-      <node ref="U703" pin="4"/>
+    <net code="33" name="~Output_Group_2_Channel_1">
+      <node ref="J1001" pin="7"/>
       <node ref="D1002" pin="4"/>
-      <node ref="J1001" pin="11"/>
+      <node ref="U701" pin="18"/>
     </net>
     <net code="34" name="~Output_Group_2_Channel_2">
-      <node ref="J1001" pin="9"/>
-      <node ref="R708" pin="2"/>
       <node ref="D1002" pin="3"/>
-      <node ref="U702" pin="4"/>
+      <node ref="U701" pin="19"/>
+      <node ref="J1001" pin="9"/>
     </net>
-    <net code="35" name="Output_Group_Select_1">
-      <node ref="R603" pin="1"/>
-      <node ref="U603" pin="1"/>
-      <node ref="R601" pin="1"/>
-      <node ref="U901" pin="4"/>
-      <node ref="U601" pin="1"/>
-      <node ref="U602" pin="1"/>
-      <node ref="R602" pin="1"/>
-    </net>
-    <net code="36" name="Input_Channel_2">
-      <node ref="U603" pin="2"/>
-      <node ref="R606" pin="1"/>
-      <node ref="R605" pin="1"/>
-      <node ref="R806" pin="1"/>
-      <node ref="R705" pin="1"/>
-      <node ref="U802" pin="2"/>
-      <node ref="U702" pin="2"/>
-      <node ref="U602" pin="2"/>
-      <node ref="R706" pin="1"/>
-      <node ref="U803" pin="2"/>
-      <node ref="U703" pin="2"/>
-      <node ref="U401" pin="4"/>
-      <node ref="R805" pin="1"/>
-    </net>
-    <net code="37" name="Output_Group_Select_3">
-      <node ref="U801" pin="1"/>
-      <node ref="R802" pin="1"/>
-      <node ref="U802" pin="1"/>
-      <node ref="R803" pin="1"/>
-      <node ref="U903" pin="4"/>
-      <node ref="R801" pin="1"/>
-      <node ref="U803" pin="1"/>
-    </net>
-    <net code="38" name="Net-(C903-Pad1)">
-      <node ref="R906" pin="2"/>
-      <node ref="D904" pin="1"/>
-      <node ref="R903" pin="1"/>
-      <node ref="C903" pin="1"/>
+    <net code="35" name="Net-(C903-Pad1)">
       <node ref="U903" pin="2"/>
+      <node ref="C903" pin="1"/>
+      <node ref="D904" pin="1"/>
+      <node ref="R906" pin="2"/>
+      <node ref="R903" pin="1"/>
     </net>
-    <net code="39" name="Net-(D901-Pad6)">
-      <node ref="D901" pin="6"/>
+    <net code="36" name="Output_Group_Select_2">
+      <node ref="U902" pin="4"/>
+      <node ref="U701" pin="3"/>
     </net>
-    <net code="40" name="Net-(D901-Pad1)">
-      <node ref="D901" pin="1"/>
-      <node ref="J901" pin="1"/>
+    <net code="37" name="Net-(D901-Pad3)">
       <node ref="R901" pin="2"/>
-    </net>
-    <net code="41" name="Net-(D901-Pad3)">
+      <node ref="J901" pin="1"/>
       <node ref="D901" pin="3"/>
+    </net>
+    <net code="38" name="Net-(D901-Pad1)">
+      <node ref="D901" pin="1"/>
       <node ref="J901" pin="2"/>
       <node ref="R902" pin="2"/>
     </net>
-    <net code="42" name="Net-(D901-Pad4)">
-      <node ref="D901" pin="4"/>
-      <node ref="R903" pin="2"/>
-      <node ref="J901" pin="3"/>
+    <net code="39" name="Output_Group_Select_3">
+      <node ref="U701" pin="4"/>
+      <node ref="U903" pin="4"/>
     </net>
-    <net code="43" name="Output_Group_Select_2">
-      <node ref="R703" pin="1"/>
-      <node ref="U703" pin="1"/>
-      <node ref="R701" pin="1"/>
-      <node ref="R702" pin="1"/>
-      <node ref="U702" pin="1"/>
-      <node ref="U902" pin="4"/>
-      <node ref="U701" pin="1"/>
-    </net>
-    <net code="44" name="Net-(C901-Pad1)">
+    <net code="40" name="Net-(C901-Pad1)">
+      <node ref="R901" pin="1"/>
       <node ref="D902" pin="1"/>
       <node ref="R904" pin="2"/>
-      <node ref="U901" pin="2"/>
       <node ref="C901" pin="1"/>
-      <node ref="R901" pin="1"/>
+      <node ref="U901" pin="2"/>
     </net>
-    <net code="45" name="Net-(C902-Pad1)">
+    <net code="41" name="Output_Group_Select_1">
+      <node ref="U901" pin="4"/>
+      <node ref="U701" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C902-Pad1)">
       <node ref="R905" pin="2"/>
-      <node ref="D903" pin="1"/>
-      <node ref="U902" pin="2"/>
-      <node ref="C902" pin="1"/>
       <node ref="R902" pin="1"/>
+      <node ref="D903" pin="1"/>
+      <node ref="C902" pin="1"/>
+      <node ref="U902" pin="2"/>
     </net>
-    <net code="46" name="/Input Channel 2/YELLOW">
-      <node ref="J402" pin="2"/>
+    <net code="43" name="Net-(D901-Pad4)">
+      <node ref="R903" pin="2"/>
+      <node ref="D901" pin="4"/>
+      <node ref="J901" pin="3"/>
+    </net>
+    <net code="44" name="Net-(D901-Pad6)">
+      <node ref="D901" pin="6"/>
+    </net>
+    <net code="45" name="Net-(C401-Pad1)">
+      <node ref="C401" pin="1"/>
+      <node ref="D402" pin="1"/>
+      <node ref="R403" pin="2"/>
+      <node ref="R402" pin="1"/>
+      <node ref="U401" pin="2"/>
+    </net>
+    <net code="46" name="Input_Channel_2">
+      <node ref="U401" pin="4"/>
+      <node ref="U701" pin="28"/>
+    </net>
+    <net code="47" name="/Input Channel 2/YELLOW">
       <node ref="R402" pin="2"/>
       <node ref="D401" pin="1"/>
+      <node ref="J402" pin="2"/>
     </net>
-    <net code="47" name="Net-(J401-Pad1)">
+    <net code="48" name="Net-(J401-Pad1)">
       <node ref="J401" pin="1"/>
       <node ref="R401" pin="2"/>
     </net>
-    <net code="48" name="Net-(C401-Pad1)">
-      <node ref="U401" pin="2"/>
-      <node ref="C401" pin="1"/>
-      <node ref="R402" pin="1"/>
-      <node ref="D402" pin="1"/>
-      <node ref="R403" pin="2"/>
-    </net>
-    <net code="49" name="/Input Channel 3/YELLOW">
-      <node ref="J502" pin="2"/>
-      <node ref="D501" pin="1"/>
-      <node ref="R502" pin="2"/>
-    </net>
-    <net code="50" name="Net-(C501-Pad1)">
-      <node ref="R502" pin="1"/>
-      <node ref="U501" pin="2"/>
-      <node ref="D502" pin="1"/>
+    <net code="49" name="Net-(C501-Pad1)">
       <node ref="R503" pin="2"/>
       <node ref="C501" pin="1"/>
+      <node ref="D502" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="R502" pin="1"/>
     </net>
-    <net code="51" name="Net-(J501-Pad1)">
-      <node ref="J501" pin="1"/>
+    <net code="50" name="Net-(J501-Pad1)">
       <node ref="R501" pin="2"/>
+      <node ref="J501" pin="1"/>
+    </net>
+    <net code="51" name="/Input Channel 3/YELLOW">
+      <node ref="J502" pin="2"/>
+      <node ref="R502" pin="2"/>
+      <node ref="D501" pin="1"/>
     </net>
     <net code="52" name="Input_Channel_3">
+      <node ref="U701" pin="1"/>
       <node ref="U501" pin="4"/>
+    </net>
+    <net code="53" name="Net-(J601-Pad6)">
+      <node ref="J601" pin="6"/>
+    </net>
+    <net code="54" name="~MCLR">
+      <node ref="U701" pin="26"/>
+      <node ref="J601" pin="1"/>
+    </net>
+    <net code="55" name="ICSPDAT">
+      <node ref="U701" pin="25"/>
+      <node ref="J601" pin="4"/>
+    </net>
+    <net code="56" name="ICSPCLK">
+      <node ref="U701" pin="24"/>
+      <node ref="J601" pin="5"/>
+    </net>
+    <net code="57" name="Net-(D702-Pad1)">
+      <node ref="D702" pin="1"/>
+      <node ref="R704" pin="1"/>
+    </net>
+    <net code="58" name="Net-(U701-Pad9)">
+      <node ref="U701" pin="9"/>
+    </net>
+    <net code="59" name="Net-(U701-Pad8)">
+      <node ref="U701" pin="8"/>
+    </net>
+    <net code="60" name="Net-(U701-Pad7)">
+      <node ref="U701" pin="7"/>
+    </net>
+    <net code="61" name="Net-(U701-Pad10)">
+      <node ref="U701" pin="10"/>
+    </net>
+    <net code="62" name="Reset_LED">
+      <node ref="R701" pin="2"/>
+      <node ref="U702" pin="2"/>
+      <node ref="U701" pin="12"/>
+    </net>
+    <net code="63" name="Net-(R704-Pad2)">
+      <node ref="U703" pin="4"/>
+      <node ref="R704" pin="2"/>
+    </net>
+    <net code="64" name="Heartbeat_LED">
+      <node ref="U703" pin="2"/>
+      <node ref="U701" pin="11"/>
+      <node ref="R702" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R703-Pad2)">
+      <node ref="R703" pin="2"/>
+      <node ref="U702" pin="4"/>
+    </net>
+    <net code="66" name="Net-(D701-Pad1)">
+      <node ref="D701" pin="1"/>
+      <node ref="R703" pin="1"/>
     </net>
   </nets>
 </export>
