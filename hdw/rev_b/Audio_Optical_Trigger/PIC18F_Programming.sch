@@ -1,0 +1,102 @@
+EESchema Schematic File Version 4
+LIBS:Audio_Optical_Trigger-cache
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 6 10
+Title "MP3 Trigger Optical Interface"
+Date "2020-04-30"
+Rev "B"
+Comp "Drew Maatman"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J601
+U 1 1 5BB4A695
+P 1070 1990
+F 0 "J601" H 1160 1980 50  0000 L CNN
+F 1 "PICKIT3" H 1160 1900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1070 1990 50  0001 C CNN
+F 3 "~" H 1070 1990 50  0001 C CNN
+	1    1070 1990
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1270 1790 2    50   UnSpc ~ 0
+~MCLR
+Text GLabel 1270 2090 2    50   BiDi ~ 0
+ICSPDAT
+Text GLabel 1270 2190 2    50   Output ~ 0
+ICSPCLK
+$Comp
+L power:GND #PWR0126
+U 1 1 5BB4A7C4
+P 1790 2040
+F 0 "#PWR0126" H 1790 1790 50  0001 C CNN
+F 1 "GND" H 1790 1890 50  0000 C CNN
+F 2 "" H 1790 2040 50  0001 C CNN
+F 3 "" H 1790 2040 50  0001 C CNN
+	1    1790 2040
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1790 1820 1790 1890
+Wire Wire Line
+	1790 1890 1270 1890
+Wire Wire Line
+	1790 2040 1790 1990
+Wire Wire Line
+	1790 1990 1270 1990
+NoConn ~ 1270 2290
+$Comp
+L Custom_Library:C_Custom C601
+U 1 1 5BC13497
+P 2460 2030
+F 0 "C601" H 2485 2130 50  0000 L CNN
+F 1 "0.1uF" H 2485 1930 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2498 1880 50  0001 C CNN
+F 3 "" H 2485 2130 50  0001 C CNN
+F 4 "0603" H 2310 2130 50  0000 R CNN "display_footprint"
+F 5 "50V" H 2310 2030 50  0000 R CNN "Voltage"
+F 6 "X7R" H 2310 1930 50  0000 R CNN "Dielectric"
+F 7 "490-8020-1-ND" H 2885 2530 60  0001 C CNN "Digi-Key PN"
+	1    2460 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5BC1349E
+P 2460 2180
+F 0 "#PWR0127" H 2460 1930 50  0001 C CNN
+F 1 "GND" H 2460 2030 50  0000 C CNN
+F 2 "" H 2460 2180 50  0001 C CNN
+F 3 "" H 2460 2180 50  0001 C CNN
+	1    2460 2180
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0131
+U 1 1 5EB140DD
+P 1790 1820
+F 0 "#PWR0131" H 1790 1670 50  0001 C CNN
+F 1 "+3.3V" H 1790 1960 50  0000 C CNN
+F 2 "" H 1790 1820 50  0001 C CNN
+F 3 "" H 1790 1820 50  0001 C CNN
+	1    1790 1820
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0132
+U 1 1 5EB148DF
+P 2460 1880
+F 0 "#PWR0132" H 2460 1730 50  0001 C CNN
+F 1 "+3.3V" H 2460 2020 50  0000 C CNN
+F 2 "" H 2460 1880 50  0001 C CNN
+F 3 "" H 2460 1880 50  0001 C CNN
+	1    2460 1880
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

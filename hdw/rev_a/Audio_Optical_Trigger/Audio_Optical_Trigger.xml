@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Drew Maatman\Documents\KiCad Projects\Projects\Slot Car Projects\Audio_Optical_Trigger\Audio_Optical_Trigger\Audio_Optical_Trigger.sch</source>
+    <date>1/19/2019 3:03:23 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Audio_Optical_Trigger.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/5C38ED7E/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Input Channel 1/" tstamps="/5C3A0E70/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Input_Channel_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Input Channel 2/" tstamps="/5C413EC6/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Input_Channel_2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Input Channel 3/" tstamps="/5C413EC9/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Input_Channel_3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Output Group 1/" tstamps="/5C3A87FE/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Output_Group_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Output Group 2/" tstamps="/5C41B1E2/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Output_Group_2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Output Group 3/" tstamps="/5C41B1E5/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Output_Group_3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Output Group Select/" tstamps="/5C3BC6A7/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Output_Group_Select.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Output Header/" tstamps="/5C3A1138/">
+      <title_block>
+        <title>MP3 Trigger Optical Interface</title>
+        <company>Drew Maatman</company>
+        <rev>A</rev>
+        <date>2019-01-18</date>
+        <source>Output_Header.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="L201">
+      <value>2.2u</value>
+      <footprint>Inductors_SMD:L_Vishay_IHLP-2020</footprint>
+      <fields>
+        <field name="Ampacity">5.5A</field>
+        <field name="Digi-Key PN">541-1236-1-ND</field>
+        <field name="Tolerance">20%</field>
+        <field name="display_footprint">IHLP2020</field>
+      </fields>
+      <libsource lib="Custom_Library" part="L_Custom" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C26EF0D</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C26F85F</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-7031-1-ND</field>
+        <field name="Voltage">25V</field>
+        <field name="display_footprint">1206</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C2703C2</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">A106046CT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C28103E</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-3148-1-ND</field>
+        <field name="Voltage">10V</field>
+        <field name="display_footprint">1206</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C28FDD2</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C293FFC</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>10.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-10.5KHRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C2959E0</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-2.00KHRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C295A52</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-3148-1-ND</field>
+        <field name="Voltage">10V</field>
+        <field name="display_footprint">1206</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C29AF9B</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>10.5k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-10.5KHRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C29F0DE</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>TPS62130</value>
+      <footprint>Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-37878-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="TPS62130" description="3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C2754C7</tstamp>
+    </comp>
+    <comp ref="TP203">
+      <value>TP</value>
+      <footprint>Custom Footprints Library:Test_Point</footprint>
+      <libsource lib="Custom_Library" part="TP" description="Test Point"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C3650A7</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>+12VIN</value>
+      <footprint>Connectors:BARREL_JACK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C3914FA</tstamp>
+    </comp>
+    <comp ref="Q201">
+      <value>IRF7404</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e</datasheet>
+      <fields>
+        <field name="Digi-Key PN">IRF7404PBFCT-ND</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF7404" description="-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C3917FF</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>MM5Z10V</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z10VT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C39387B</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>100uF</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow</footprint>
+      <fields>
+        <field name="Digi-Key PN">478-3919-1-ND</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">16V</field>
+        <field name="display_footprint">7343</field>
+      </fields>
+      <libsource lib="Custom_Library" part="CP_Tant_Custom" description="Polarised capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C399601</tstamp>
+    </comp>
+    <comp ref="TP202">
+      <value>TP</value>
+      <footprint>Custom Footprints Library:Test_Point</footprint>
+      <libsource lib="Custom_Library" part="TP" description="Test Point"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C39A9A6</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C395FB9</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C42959A</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C4295B1</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G14_Power" description="Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C4295D2</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-2.00KHRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C430000</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>GREEN</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">160-1446-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C4300F3</tstamp>
+    </comp>
+    <comp ref="TP201">
+      <value>TP</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm</footprint>
+      <libsource lib="Custom_Library" part="TP" description="Test Point"/>
+      <sheetpath names="/Power/" tstamps="/5C38ED7E/"/>
+      <tstamp>5C433336</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A192B</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A1BD4</tstamp>
+    </comp>
+    <comp ref="D302">
+      <value>MM5Z5V6</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A2194</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RMCF0603FT100RCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A2BA0</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>CM1213A-01SO</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF</datasheet>
+      <fields>
+        <field name="Digi-Key PN">CM1213A-01SOOSCT-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="CM1213A-01SO" description="Single Channel ESD Protection Array"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A3546</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A42B1</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-0.0GRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C3A6364</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>74LVC1G17</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11934-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G17_Power" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C415574</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>TX1</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1721-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C417641</tstamp>
+    </comp>
+    <comp ref="J302">
+      <value>RX1</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1722-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input Channel 1/" tstamps="/5C3A0E70/"/>
+      <tstamp>5C4179F9</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417EDD</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417EF4</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>MM5Z5V6</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F04</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RMCF0603FT100RCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F1F</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>CM1213A-01SO</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF</datasheet>
+      <fields>
+        <field name="Digi-Key PN">CM1213A-01SOOSCT-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="CM1213A-01SO" description="Single Channel ESD Protection Array"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F29</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F46</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-0.0GRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F6B</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>74LVC1G17</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11934-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G17_Power" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F7E</tstamp>
+    </comp>
+    <comp ref="J401">
+      <value>TX2</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1721-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F85</tstamp>
+    </comp>
+    <comp ref="J402">
+      <value>RX2</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1722-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input Channel 2/" tstamps="/5C413EC6/"/>
+      <tstamp>5C417F8C</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C418690</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C4186A7</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>MM5Z5V6</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C4186B7</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RMCF0603FT100RCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C4186D2</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>CM1213A-01SO</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF</datasheet>
+      <fields>
+        <field name="Digi-Key PN">CM1213A-01SOOSCT-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="CM1213A-01SO" description="Single Channel ESD Protection Array"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C4186DC</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C4186F9</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">311-0.0GRCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C41871E</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>74LVC1G17</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11934-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G17_Power" description="Single Schmitt Buffer Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C418731</tstamp>
+    </comp>
+    <comp ref="J501">
+      <value>TX3</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1721-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C418738</tstamp>
+    </comp>
+    <comp ref="J502">
+      <value>RX3</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1722-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Input Channel 3/" tstamps="/5C413EC9/"/>
+      <tstamp>5C41873F</tstamp>
+    </comp>
+    <comp ref="R607">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C3BB03B</tstamp>
+    </comp>
+    <comp ref="R604">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C3BB9FC</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C3BBA5C</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C36E72A</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C418FD7</tstamp>
+    </comp>
+    <comp ref="R608">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C4195F4</tstamp>
+    </comp>
+    <comp ref="R605">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419607</tstamp>
+    </comp>
+    <comp ref="R602">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419612</tstamp>
+    </comp>
+    <comp ref="U602">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419630</tstamp>
+    </comp>
+    <comp ref="C602">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C41963D</tstamp>
+    </comp>
+    <comp ref="R609">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419915</tstamp>
+    </comp>
+    <comp ref="R606">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419928</tstamp>
+    </comp>
+    <comp ref="R603">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419933</tstamp>
+    </comp>
+    <comp ref="U603">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C419951</tstamp>
+    </comp>
+    <comp ref="C603">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 1/" tstamps="/5C3A87FE/"/>
+      <tstamp>5C41995E</tstamp>
+    </comp>
+    <comp ref="R707">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B895</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B8A8</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B8B3</tstamp>
+    </comp>
+    <comp ref="U701">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B8D1</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B8DE</tstamp>
+    </comp>
+    <comp ref="R708">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B902</tstamp>
+    </comp>
+    <comp ref="R705">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B915</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B920</tstamp>
+    </comp>
+    <comp ref="U702">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B93E</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B94B</tstamp>
+    </comp>
+    <comp ref="R709">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B96F</tstamp>
+    </comp>
+    <comp ref="R706">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B982</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B98D</tstamp>
+    </comp>
+    <comp ref="U703">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B9AB</tstamp>
+    </comp>
+    <comp ref="C703">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 2/" tstamps="/5C41B1E2/"/>
+      <tstamp>5C41B9B8</tstamp>
+    </comp>
+    <comp ref="R807">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BEEF</tstamp>
+    </comp>
+    <comp ref="R804">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF02</tstamp>
+    </comp>
+    <comp ref="R801">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF0D</tstamp>
+    </comp>
+    <comp ref="U801">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF2B</tstamp>
+    </comp>
+    <comp ref="C801">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF38</tstamp>
+    </comp>
+    <comp ref="R808">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF5C</tstamp>
+    </comp>
+    <comp ref="R805">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF6F</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF7A</tstamp>
+    </comp>
+    <comp ref="U802">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BF98</tstamp>
+    </comp>
+    <comp ref="C802">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BFA5</tstamp>
+    </comp>
+    <comp ref="R809">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Config">DNP</field>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BFC9</tstamp>
+    </comp>
+    <comp ref="R806">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BFDC</tstamp>
+    </comp>
+    <comp ref="R803">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41BFE7</tstamp>
+    </comp>
+    <comp ref="U803">
+      <value>74LVC1G38</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-17907-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G38_Power" description="Single NAND Gate Open Drain, Low-Voltage CMOS"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41C005</tstamp>
+    </comp>
+    <comp ref="C803">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group 3/" tstamps="/5C41B1E5/"/>
+      <tstamp>5C41C012</tstamp>
+    </comp>
+    <comp ref="C904">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C3BCDBA</tstamp>
+    </comp>
+    <comp ref="R904">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C3BCDD1</tstamp>
+    </comp>
+    <comp ref="D902">
+      <value>MM5Z5V6</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C3BCDE1</tstamp>
+    </comp>
+    <comp ref="R901">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RMCF0603FT100RCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C3BCDFC</tstamp>
+    </comp>
+    <comp ref="C901">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C3BCE23</tstamp>
+    </comp>
+    <comp ref="U901">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G14_Power" description="Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C3BCE68</tstamp>
+    </comp>
+    <comp ref="C905">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41EF6D</tstamp>
+    </comp>
+    <comp ref="R905">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41EF84</tstamp>
+    </comp>
+    <comp ref="D903">
+      <value>MM5Z5V6</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41EF94</tstamp>
+    </comp>
+    <comp ref="R902">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RMCF0603FT100RCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41EFAF</tstamp>
+    </comp>
+    <comp ref="C902">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41EFD6</tstamp>
+    </comp>
+    <comp ref="U902">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G14_Power" description="Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41EFDE</tstamp>
+    </comp>
+    <comp ref="C906">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">490-8020-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41FC84</tstamp>
+    </comp>
+    <comp ref="R906">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RHM10KADCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41FC9B</tstamp>
+    </comp>
+    <comp ref="D904">
+      <value>MM5Z5V6</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">MM5Z5V6T1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="MM5Zxx" description="300mW Zener Diode, SOD-523"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41FCAB</tstamp>
+    </comp>
+    <comp ref="R903">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digi-Key PN">RMCF0603FT100RCT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">1/10W</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="R_Custom" description="Resistor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41FCC6</tstamp>
+    </comp>
+    <comp ref="C903">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Digi-Key PN">1276-1921-1-ND</field>
+        <field name="Voltage">50V</field>
+        <field name="display_footprint">0603</field>
+      </fields>
+      <libsource lib="Custom_Library" part="C_Custom" description="Unpolarized capacitor"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41FCED</tstamp>
+    </comp>
+    <comp ref="U903">
+      <value>74LVC1G14</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <libsource lib="Custom_Library" part="74LVC1G14_Power" description="Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C41FCF5</tstamp>
+    </comp>
+    <comp ref="J901">
+      <value>Group Select</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">277-1860-ND</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C421A61</tstamp>
+    </comp>
+    <comp ref="D901">
+      <value>ESDA6V1BC6</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">497-6635-1-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="ESDA6V1BC6" description="Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6"/>
+      <sheetpath names="/Output Group Select/" tstamps="/5C3BC6A7/"/>
+      <tstamp>5C426CF0</tstamp>
+    </comp>
+    <comp ref="J1001">
+      <value>Trigger Output</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key PN">732-5309-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x18_Odd_Even" description="Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Output Header/" tstamps="/5C3A1138/"/>
+      <tstamp>5C3A7DF5</tstamp>
+    </comp>
+    <comp ref="D1001">
+      <value>SP0503BAHT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-143</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">F2715CT-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SP0503BAHT" description="TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"/>
+      <sheetpath names="/Output Header/" tstamps="/5C3A1138/"/>
+      <tstamp>5C433C4E</tstamp>
+    </comp>
+    <comp ref="D1002">
+      <value>SP0503BAHT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-143</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">F2715CT-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SP0503BAHT" description="TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"/>
+      <sheetpath names="/Output Header/" tstamps="/5C3A1138/"/>
+      <tstamp>5C435319</tstamp>
+    </comp>
+    <comp ref="D1003">
+      <value>SP0503BAHT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-143</footprint>
+      <datasheet>http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key PN">F2715CT-ND</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SP0503BAHT" description="TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"/>
+      <sheetpath names="/Output Header/" tstamps="/5C3A1138/"/>
+      <tstamp>5C435AB8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x18_Odd_Even">
+      <description>Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x18_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="74LVC1G14_Power">
+      <description>Single Schmitt NOT Gate, Low-Voltage CMOS, SC-70-5</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G14_Power</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-353_SC-70-5</field>
+        <field name="Digi-Key PN">296-11608-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="74LVC1G17_Power">
+      <description>Single Schmitt Buffer Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G17_Power</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-353_SC-70-5</field>
+        <field name="Digi-Key PN">296-11934-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="74LVC1G38_Power">
+      <description>Single NAND Gate Open Drain, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G38_Power</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="CP_Tant_Custom">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Tant_Custom</field>
+        <field name="display_footprint">Foot</field>
+        <field name="Voltage">V</field>
+        <field name="Tolerance">Tol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="C_Custom">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Custom</field>
+        <field name="display_footprint">Foot</field>
+        <field name="Voltage">V</field>
+        <field name="Dielectric">Er</field>
+        <field name="Digi-Key PN">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="L_Custom">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Custom</field>
+        <field name="display_footprint">Foot</field>
+        <field name="Ampacity">A</field>
+        <field name="Tolerance">Tol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="R_Custom">
+      <description>Resistor</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Custom</field>
+        <field name="display_footprint">Foot</field>
+        <field name="Tolerance">Tol</field>
+        <field name="Wattage">W</field>
+        <field name="Digi-Key PN">PN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="TP">
+      <description>Test Point</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom_Library" part="TPS62130">
+      <description>3A Step-Down Converter with DCS-Control, Adjustable Output Voltage, 3-17V Input Voltage, QFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps62130.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62130</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62130.pdf</field>
+        <field name="Digi-Key PN">296-37878-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="PG" type="openCol"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="AGND" type="power_in"/>
+        <pin num="7" name="FSW" type="input"/>
+        <pin num="8" name="DEF" type="input"/>
+        <pin num="9" name="SS/TR" type="input"/>
+        <pin num="10" name="AVIN" type="power_in"/>
+        <pin num="11" name="PVIN" type="power_in"/>
+        <pin num="12" name="PVIN" type="passive"/>
+        <pin num="13" name="EN" type="input"/>
+        <pin num="14" name="VOS" type="input"/>
+        <pin num="15" name="PGND" type="power_in"/>
+        <pin num="16" name="PGND" type="passive"/>
+        <pin num="17" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MM5Zxx">
+      <description>300mW Zener Diode, SOD-523</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</docs>
+      <footprints>
+        <fp>D?SOD?523*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MM5Zxx</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="CM1213A-01SO">
+      <description>Single Channel ESD Protection Array</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CM1213A-01SO</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH1" type="passive"/>
+        <pin num="2" name="VP" type="passive"/>
+        <pin num="3" name="VN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="ESDA6V1BC6">
+      <description>Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOT-23-6</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ESDA6V1BC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TVS1" type="passive"/>
+        <pin num="2" name="COM" type="passive"/>
+        <pin num="3" name="TVS2" type="passive"/>
+        <pin num="4" name="TVS3" type="passive"/>
+        <pin num="5" name="COM" type="passive"/>
+        <pin num="6" name="TVS4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="SP0503BAHT">
+      <description>TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package</description>
+      <docs>http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf</docs>
+      <footprints>
+        <fp>SOT?143*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SP0503BAHT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF7404">
+      <description>-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8</description>
+      <docs>http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7404</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Custom_Library">
+      <uri>C:\Users\Drew Maatman\Documents\KiCad Projects\Libraries\KiCad_Custom_Libraries/Custom Library.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D201-Pad2)">
+      <node ref="R201" pin="1"/>
+      <node ref="Q201" pin="4"/>
+      <node ref="D201" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J201-Pad1)">
+      <node ref="Q201" pin="6"/>
+      <node ref="J201" pin="1"/>
+      <node ref="Q201" pin="5"/>
+      <node ref="Q201" pin="7"/>
+      <node ref="Q201" pin="8"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R604" pin="2"/>
+      <node ref="R601" pin="2"/>
+      <node ref="C601" pin="2"/>
+      <node ref="U601" pin="3"/>
+      <node ref="U903" pin="3"/>
+      <node ref="U603" pin="3"/>
+      <node ref="R605" pin="2"/>
+      <node ref="R602" pin="2"/>
+      <node ref="C903" pin="2"/>
+      <node ref="C603" pin="2"/>
+      <node ref="R603" pin="2"/>
+      <node ref="R606" pin="2"/>
+      <node ref="D902" pin="2"/>
+      <node ref="J901" pin="4"/>
+      <node ref="C904" pin="2"/>
+      <node ref="C901" pin="2"/>
+      <node ref="U901" pin="3"/>
+      <node ref="D901" pin="5"/>
+      <node ref="D901" pin="2"/>
+      <node ref="D904" pin="2"/>
+      <node ref="C906" pin="2"/>
+      <node ref="J1001" pin="4"/>
+      <node ref="J1001" pin="2"/>
+      <node ref="J1001" pin="18"/>
+      <node ref="J1001" pin="16"/>
+      <node ref="J1001" pin="14"/>
+      <node ref="J1001" pin="12"/>
+      <node ref="J1001" pin="10"/>
+      <node ref="J1001" pin="32"/>
+      <node ref="J1001" pin="6"/>
+      <node ref="J1001" pin="20"/>
+      <node ref="J1001" pin="36"/>
+      <node ref="J1001" pin="34"/>
+      <node ref="J1001" pin="8"/>
+      <node ref="J1001" pin="30"/>
+      <node ref="J1001" pin="28"/>
+      <node ref="J1001" pin="26"/>
+      <node ref="D1002" pin="1"/>
+      <node ref="J1001" pin="24"/>
+      <node ref="J1001" pin="22"/>
+      <node ref="C602" pin="2"/>
+      <node ref="U602" pin="3"/>
+      <node ref="D1001" pin="1"/>
+      <node ref="D1003" pin="1"/>
+      <node ref="R702" pin="2"/>
+      <node ref="R705" pin="2"/>
+      <node ref="R704" pin="2"/>
+      <node ref="C701" pin="2"/>
+      <node ref="U701" pin="3"/>
+      <node ref="C703" pin="2"/>
+      <node ref="C802" pin="2"/>
+      <node ref="U703" pin="3"/>
+      <node ref="R703" pin="2"/>
+      <node ref="R706" pin="2"/>
+      <node ref="R701" pin="2"/>
+      <node ref="R801" pin="2"/>
+      <node ref="R804" pin="2"/>
+      <node ref="U801" pin="3"/>
+      <node ref="R802" pin="2"/>
+      <node ref="R805" pin="2"/>
+      <node ref="C801" pin="2"/>
+      <node ref="U802" pin="3"/>
+      <node ref="C803" pin="2"/>
+      <node ref="U803" pin="3"/>
+      <node ref="R803" pin="2"/>
+      <node ref="R806" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="D401" pin="3"/>
+      <node ref="J402" pin="3"/>
+      <node ref="C902" pin="2"/>
+      <node ref="U902" pin="3"/>
+      <node ref="C905" pin="2"/>
+      <node ref="D903" pin="2"/>
+      <node ref="D402" pin="2"/>
+      <node ref="C401" pin="2"/>
+      <node ref="J502" pin="3"/>
+      <node ref="D502" pin="2"/>
+      <node ref="C502" pin="2"/>
+      <node ref="J501" pin="2"/>
+      <node ref="U501" pin="3"/>
+      <node ref="U702" pin="3"/>
+      <node ref="C702" pin="2"/>
+      <node ref="J401" pin="2"/>
+      <node ref="U401" pin="3"/>
+      <node ref="D501" pin="3"/>
+      <node ref="C501" pin="2"/>
+      <node ref="R205" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="D302" pin="2"/>
+      <node ref="U201" pin="3"/>
+      <node ref="C301" pin="2"/>
+      <node ref="U202" pin="8"/>
+      <node ref="U202" pin="6"/>
+      <node ref="U301" pin="3"/>
+      <node ref="J201" pin="2"/>
+      <node ref="TP201" pin="1"/>
+      <node ref="J301" pin="2"/>
+      <node ref="J302" pin="3"/>
+      <node ref="C204" pin="2"/>
+      <node ref="U202" pin="7"/>
+      <node ref="C206" pin="2"/>
+      <node ref="J201" pin="3"/>
+      <node ref="C202" pin="2"/>
+      <node ref="U202" pin="15"/>
+      <node ref="R207" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="U202" pin="16"/>
+      <node ref="C207" pin="2"/>
+      <node ref="D301" pin="3"/>
+      <node ref="U202" pin="17"/>
+      <node ref="R201" pin="2"/>
+    </net>
+    <net code="4" name="+5V">
+      <node ref="C906" pin="1"/>
+      <node ref="U601" pin="5"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C601" pin="1"/>
+      <node ref="R206" pin="1"/>
+      <node ref="U202" pin="14"/>
+      <node ref="R608" pin="1"/>
+      <node ref="R403" pin="1"/>
+      <node ref="C207" pin="1"/>
+      <node ref="U201" pin="5"/>
+      <node ref="C701" pin="1"/>
+      <node ref="R708" pin="1"/>
+      <node ref="U701" pin="5"/>
+      <node ref="C904" pin="1"/>
+      <node ref="C905" pin="1"/>
+      <node ref="R905" pin="1"/>
+      <node ref="U902" pin="5"/>
+      <node ref="R809" pin="1"/>
+      <node ref="D202" pin="2"/>
+      <node ref="C802" pin="1"/>
+      <node ref="R707" pin="1"/>
+      <node ref="U802" pin="5"/>
+      <node ref="U903" pin="5"/>
+      <node ref="TP203" pin="1"/>
+      <node ref="C803" pin="1"/>
+      <node ref="U803" pin="5"/>
+      <node ref="R906" pin="1"/>
+      <node ref="R904" pin="1"/>
+      <node ref="U901" pin="5"/>
+      <node ref="U703" pin="5"/>
+      <node ref="C703" pin="1"/>
+      <node ref="C801" pin="1"/>
+      <node ref="C302" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="D501" pin="2"/>
+      <node ref="U602" pin="5"/>
+      <node ref="C602" pin="1"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U501" pin="5"/>
+      <node ref="R501" pin="1"/>
+      <node ref="J502" pin="1"/>
+      <node ref="U801" pin="5"/>
+      <node ref="U702" pin="5"/>
+      <node ref="C702" pin="1"/>
+      <node ref="L201" pin="2"/>
+      <node ref="R203" pin="1"/>
+      <node ref="D301" pin="2"/>
+      <node ref="R503" pin="1"/>
+      <node ref="C502" pin="1"/>
+      <node ref="C402" pin="1"/>
+      <node ref="R807" pin="1"/>
+      <node ref="C206" pin="1"/>
+      <node ref="R709" pin="1"/>
+      <node ref="J402" pin="1"/>
+      <node ref="U401" pin="5"/>
+      <node ref="U603" pin="5"/>
+      <node ref="C603" pin="1"/>
+      <node ref="U301" pin="5"/>
+      <node ref="J302" pin="1"/>
+      <node ref="R609" pin="1"/>
+      <node ref="D401" pin="2"/>
+      <node ref="R607" pin="1"/>
+      <node ref="R808" pin="1"/>
+    </net>
+    <net code="5" name="Net-(L201-Pad1)">
+      <node ref="U202" pin="3"/>
+      <node ref="U202" pin="2"/>
+      <node ref="U202" pin="1"/>
+      <node ref="L201" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D202-Pad1)">
+      <node ref="R202" pin="1"/>
+      <node ref="D202" pin="1"/>
+    </net>
+    <net code="7" name="POS5_PGOOD">
+      <node ref="U201" pin="2"/>
+      <node ref="U202" pin="4"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R202-Pad2)">
+      <node ref="R202" pin="2"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="9" name="+12V">
+      <node ref="C205" pin="1"/>
+      <node ref="TP202" pin="1"/>
+      <node ref="R204" pin="1"/>
+      <node ref="D201" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="Q201" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="U202" pin="10"/>
+      <node ref="U202" pin="11"/>
+      <node ref="U202" pin="12"/>
+      <node ref="Q201" pin="3"/>
+      <node ref="Q201" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R204-Pad2)">
+      <node ref="R205" pin="1"/>
+      <node ref="R204" pin="2"/>
+      <node ref="U202" pin="13"/>
+    </net>
+    <net code="11" name="Net-(C204-Pad1)">
+      <node ref="U202" pin="9"/>
+      <node ref="C204" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R206-Pad2)">
+      <node ref="R206" pin="2"/>
+      <node ref="U202" pin="5"/>
+      <node ref="R207" pin="1"/>
+    </net>
+    <net code="13" name="/Input Channel 1/YELLOW">
+      <node ref="J302" pin="2"/>
+      <node ref="R302" pin="2"/>
+      <node ref="D301" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J301-Pad1)">
+      <node ref="R301" pin="2"/>
+      <node ref="J301" pin="1"/>
+    </net>
+    <net code="15" name="Input_Channel_1">
+      <node ref="U301" pin="4"/>
+      <node ref="R604" pin="1"/>
+      <node ref="R804" pin="1"/>
+      <node ref="U801" pin="2"/>
+      <node ref="U701" pin="2"/>
+      <node ref="U601" pin="2"/>
+      <node ref="R704" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C301-Pad1)">
+      <node ref="R302" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="U301" pin="2"/>
+      <node ref="D302" pin="1"/>
+      <node ref="R303" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J1001-Pad23)">
+      <node ref="J1001" pin="23"/>
+    </net>
+    <net code="18" name="Net-(J1001-Pad21)">
+      <node ref="J1001" pin="21"/>
+    </net>
+    <net code="19" name="Net-(J1001-Pad19)">
+      <node ref="J1001" pin="19"/>
+    </net>
+    <net code="20" name="Net-(J1001-Pad25)">
+      <node ref="J1001" pin="25"/>
+    </net>
+    <net code="21" name="Net-(J1001-Pad35)">
+      <node ref="J1001" pin="35"/>
+    </net>
+    <net code="22" name="Net-(J1001-Pad33)">
+      <node ref="J1001" pin="33"/>
+    </net>
+    <net code="23" name="Net-(J1001-Pad31)">
+      <node ref="J1001" pin="31"/>
+    </net>
+    <net code="24" name="Net-(J1001-Pad29)">
+      <node ref="J1001" pin="29"/>
+    </net>
+    <net code="25" name="Net-(J1001-Pad27)">
+      <node ref="J1001" pin="27"/>
+    </net>
+    <net code="26" name="~Output_Group_1_Channel_1">
+      <node ref="R607" pin="2"/>
+      <node ref="D1001" pin="2"/>
+      <node ref="U601" pin="4"/>
+      <node ref="J1001" pin="1"/>
+    </net>
+    <net code="27" name="~Output_Group_1_Channel_3">
+      <node ref="D1001" pin="4"/>
+      <node ref="U603" pin="4"/>
+      <node ref="J1001" pin="5"/>
+      <node ref="R609" pin="2"/>
+    </net>
+    <net code="28" name="~Output_Group_1_Channel_2">
+      <node ref="J1001" pin="3"/>
+      <node ref="R608" pin="2"/>
+      <node ref="D1001" pin="3"/>
+      <node ref="U602" pin="4"/>
+    </net>
+    <net code="29" name="~Output_Group_2_Channel_1">
+      <node ref="U701" pin="4"/>
+      <node ref="R707" pin="2"/>
+      <node ref="J1001" pin="7"/>
+      <node ref="D1002" pin="2"/>
+    </net>
+    <net code="30" name="~Output_Group_3_Channel_3">
+      <node ref="J1001" pin="17"/>
+      <node ref="R809" pin="2"/>
+      <node ref="D1003" pin="4"/>
+      <node ref="U803" pin="4"/>
+    </net>
+    <net code="31" name="~Output_Group_3_Channel_2">
+      <node ref="D1003" pin="3"/>
+      <node ref="R808" pin="2"/>
+      <node ref="J1001" pin="15"/>
+      <node ref="U802" pin="4"/>
+    </net>
+    <net code="32" name="~Output_Group_3_Channel_1">
+      <node ref="R807" pin="2"/>
+      <node ref="U801" pin="4"/>
+      <node ref="J1001" pin="13"/>
+      <node ref="D1003" pin="2"/>
+    </net>
+    <net code="33" name="~Output_Group_2_Channel_3">
+      <node ref="R709" pin="2"/>
+      <node ref="U703" pin="4"/>
+      <node ref="D1002" pin="4"/>
+      <node ref="J1001" pin="11"/>
+    </net>
+    <net code="34" name="~Output_Group_2_Channel_2">
+      <node ref="J1001" pin="9"/>
+      <node ref="R708" pin="2"/>
+      <node ref="D1002" pin="3"/>
+      <node ref="U702" pin="4"/>
+    </net>
+    <net code="35" name="Output_Group_Select_1">
+      <node ref="R603" pin="1"/>
+      <node ref="U603" pin="1"/>
+      <node ref="R601" pin="1"/>
+      <node ref="U901" pin="4"/>
+      <node ref="U601" pin="1"/>
+      <node ref="U602" pin="1"/>
+      <node ref="R602" pin="1"/>
+    </net>
+    <net code="36" name="Input_Channel_2">
+      <node ref="U603" pin="2"/>
+      <node ref="R606" pin="1"/>
+      <node ref="R605" pin="1"/>
+      <node ref="R806" pin="1"/>
+      <node ref="R705" pin="1"/>
+      <node ref="U802" pin="2"/>
+      <node ref="U702" pin="2"/>
+      <node ref="U602" pin="2"/>
+      <node ref="R706" pin="1"/>
+      <node ref="U803" pin="2"/>
+      <node ref="U703" pin="2"/>
+      <node ref="U401" pin="4"/>
+      <node ref="R805" pin="1"/>
+    </net>
+    <net code="37" name="Output_Group_Select_3">
+      <node ref="U801" pin="1"/>
+      <node ref="R802" pin="1"/>
+      <node ref="U802" pin="1"/>
+      <node ref="R803" pin="1"/>
+      <node ref="U903" pin="4"/>
+      <node ref="R801" pin="1"/>
+      <node ref="U803" pin="1"/>
+    </net>
+    <net code="38" name="Net-(C903-Pad1)">
+      <node ref="R906" pin="2"/>
+      <node ref="D904" pin="1"/>
+      <node ref="R903" pin="1"/>
+      <node ref="C903" pin="1"/>
+      <node ref="U903" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D901-Pad6)">
+      <node ref="D901" pin="6"/>
+    </net>
+    <net code="40" name="Net-(D901-Pad1)">
+      <node ref="D901" pin="1"/>
+      <node ref="J901" pin="1"/>
+      <node ref="R901" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D901-Pad3)">
+      <node ref="D901" pin="3"/>
+      <node ref="J901" pin="2"/>
+      <node ref="R902" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D901-Pad4)">
+      <node ref="D901" pin="4"/>
+      <node ref="R903" pin="2"/>
+      <node ref="J901" pin="3"/>
+    </net>
+    <net code="43" name="Output_Group_Select_2">
+      <node ref="R703" pin="1"/>
+      <node ref="U703" pin="1"/>
+      <node ref="R701" pin="1"/>
+      <node ref="R702" pin="1"/>
+      <node ref="U702" pin="1"/>
+      <node ref="U902" pin="4"/>
+      <node ref="U701" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C901-Pad1)">
+      <node ref="D902" pin="1"/>
+      <node ref="R904" pin="2"/>
+      <node ref="U901" pin="2"/>
+      <node ref="C901" pin="1"/>
+      <node ref="R901" pin="1"/>
+    </net>
+    <net code="45" name="Net-(C902-Pad1)">
+      <node ref="R905" pin="2"/>
+      <node ref="D903" pin="1"/>
+      <node ref="U902" pin="2"/>
+      <node ref="C902" pin="1"/>
+      <node ref="R902" pin="1"/>
+    </net>
+    <net code="46" name="/Input Channel 2/YELLOW">
+      <node ref="J402" pin="2"/>
+      <node ref="R402" pin="2"/>
+      <node ref="D401" pin="1"/>
+    </net>
+    <net code="47" name="Net-(J401-Pad1)">
+      <node ref="J401" pin="1"/>
+      <node ref="R401" pin="2"/>
+    </net>
+    <net code="48" name="Net-(C401-Pad1)">
+      <node ref="U401" pin="2"/>
+      <node ref="C401" pin="1"/>
+      <node ref="R402" pin="1"/>
+      <node ref="D402" pin="1"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="49" name="/Input Channel 3/YELLOW">
+      <node ref="J502" pin="2"/>
+      <node ref="D501" pin="1"/>
+      <node ref="R502" pin="2"/>
+    </net>
+    <net code="50" name="Net-(C501-Pad1)">
+      <node ref="R502" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="D502" pin="1"/>
+      <node ref="R503" pin="2"/>
+      <node ref="C501" pin="1"/>
+    </net>
+    <net code="51" name="Net-(J501-Pad1)">
+      <node ref="J501" pin="1"/>
+      <node ref="R501" pin="2"/>
+    </net>
+    <net code="52" name="Input_Channel_3">
+      <node ref="U501" pin="4"/>
+    </net>
+  </nets>
+</export>

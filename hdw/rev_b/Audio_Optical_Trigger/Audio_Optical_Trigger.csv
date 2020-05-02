@@ -1,0 +1,37 @@
+Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Ampacity,Dielectric,Digi-Key PN,Tolerance,Voltage,Wattage,display_footprint
+12,"C201, C205, C302, C402, C502, C601, C701, C704, C705, C904, C905, C906",0.1uF,Custom_Library:C_Custom,Capacitors_SMD:C_0603,,,X7R,490-8020-1-ND,,50V,,603
+1,C202,100uF,Custom_Library:CP_Tant_Custom,Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow,,,,478-3919-1-ND,20%,16V,,7343
+1,C203,10uF,Custom_Library:C_Custom,Capacitors_SMD:C_1206,,,X7R,1276-7031-1-ND,,25V,,1206
+8,"C204, C301, C401, C501, C702, C901, C902, C903",10nF,Custom_Library:C_Custom,Capacitors_SMD:C_0603,,,X7R,1276-1921-1-ND,,50V,,603
+2,"C206, C207",22uF,Custom_Library:C_Custom,Capacitors_SMD:C_1206,,,X7R,1276-3148-1-ND,,10V,,1206
+1,C703,1nF,Custom_Library:C_Custom,Capacitors_SMD:C_0603,,,X7R,1276-1018-1-ND,,50V,,603
+1,D201,MM5Z10V,Diode:MM5Zxx,Diodes_SMD:D_SOD-523,https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf,,,MM5Z10VT1GOSCT-ND,,,,
+2,"D202, D702",GREEN,Device:LED,LEDs:LED_0603,~,,,160-1446-1-ND,,,,
+3,"D301, D401, D501",CM1213A-01SO,Power_Protection:CM1213A-01SO,TO_SOT_Packages_SMD:SOT-23,http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF,,,CM1213A-01SOOSCT-ND,,,,
+6,"D302, D402, D502, D902, D903, D904",MM5Z3V6,Diode:MM5Zxx,Diodes_SMD:D_SOD-523,https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf,,,SZMM5Z3V6T1GOSCT-ND,,,,
+1,D701,RED,Device:LED,LEDs:LED_0603,~,,,160-1433-1-ND,,,,
+1,D901,ESDA6V1BC6,Power_Protection:ESDA6V1BC6,TO_SOT_Packages_SMD:SOT-23-6,http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf,,,497-6635-1-ND,,,,
+3,"D1001, D1002, D1003",SP0503BAHT,Power_Protection:SP0503BAHT,TO_SOT_Packages_SMD:SOT-143,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,,,F2715CT-ND,,,,
+4,"H1101, H1102, H1103, H1104",MountingHole,Mechanical:MountingHole,Mounting_Holes:MountingHole_3mm,~,,,,,,,
+1,J201,+12VIN,Connector:Barrel_Jack_Switch,Connectors:BARREL_JACK,~,,,,,,,
+1,J301,TX1,Connector:Screw_Terminal_01x02,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol,~,,,277-1721-ND,,,,
+1,J302,RX1,Connector:Screw_Terminal_01x03,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol,~,,,277-1722-ND,,,,
+1,J401,TX2,Connector:Screw_Terminal_01x02,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol,~,,,277-1721-ND,,,,
+1,J402,RX2,Connector:Screw_Terminal_01x03,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol,~,,,277-1722-ND,,,,
+1,J501,TX3,Connector:Screw_Terminal_01x02,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_2pol,~,,,277-1721-ND,,,,
+1,J502,RX3,Connector:Screw_Terminal_01x03,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_3pol,~,,,277-1722-ND,,,,
+1,J601,PICKIT3,Connector_Generic:Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,,,,,,,
+1,J901,Group Select,Connector:Screw_Terminal_01x04,TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-3.5mm_4pol,~,,,277-1860-ND,,,,
+1,J1001,Trigger Output,Connector_Generic:Conn_02x18_Odd_Even,Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm,~,,,732-5309-ND,,,,
+1,L201,2.2u,Custom_Library:L_Custom,Inductors_SMD:L_Vishay_IHLP-2020,,5.5A,,541-1236-1-ND,20%,,,IHLP2020
+1,Q201,IRF7404,Transistor_FET:IRF7404,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e,,,IRF7404PBFCT-ND,,,,
+10,"R201, R203, R303, R403, R503, R701, R702, R904, R905, R906",10k,Custom_Library:R_Custom,Resistors_SMD:R_0603,,,,RHM10KADCT-ND,1%,,1/10W,603
+4,"R202, R207, R703, R704",2k,Custom_Library:R_Custom,Resistors_SMD:R_0603,,,,311-2.00KHRCT-ND,1%,,1/10W,603
+1,R204,100k,Custom_Library:R_Custom,Resistors_SMD:R_0603,,,,A106046CT-ND,1%,,1/10W,603
+2,"R205, R206",10.5k,Custom_Library:R_Custom,Resistors_SMD:R_0603,,,,311-10.5KHRCT-ND,1%,,1/10W,603
+3,"R301, R401, R501",0,Custom_Library:R_Custom,Resistors_SMD:R_0603,,,,311-0.0GRCT-ND,1%,,1/10W,603
+6,"R302, R402, R502, R901, R902, R903",100,Custom_Library:R_Custom,Resistors_SMD:R_0603,,,,RMCF0603FT100RCT-ND,1%,,1/10W,603
+6,"U201, U702, U703, U901, U902, U903",74LVC1G14,Custom_Library:74LVC1G14_Power,TO_SOT_Packages_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,,,296-11608-1-ND,,,,
+1,U202,TPS62130,Custom_Library:TPS62130,Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm,http://www.ti.com/lit/ds/symlink/tps62130.pdf,,,296-37878-1-ND,,,,
+3,"U301, U401, U501",74LVC1G17,Custom_Library:74LVC1G17_Power,TO_SOT_Packages_SMD:SOT-353_SC-70-5,http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf,,,296-11934-1-ND,,,,
+1,U701,PIC18F27K40T-I_ML,Custom_Library:PIC18(L)F27K40T-I_ML,Housings_DFN_QFN:QFN-28-1EP_6x6mm_Pitch0.65mm,http://ww1.microchip.com/downloads/en/DeviceDoc/PIC18LF27_47K40-Data-Sheet-40001844E.pdf,,,PIC18F27K40T-I/MLCT-ND,,,,
