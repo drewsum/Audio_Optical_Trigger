@@ -58,37 +58,37 @@ void PIN_MANAGER_Initialize(void)
     LATx registers
     */
     LATA = 0x00;
-    LATB = 0x00;
-    LATC = 0x00;
+    LATB = 0x3F;
+    LATC = 0xE0;
 
     /**
     TRISx registers
     */
-    TRISA = 0xFF;
-    TRISB = 0xFF;
-    TRISC = 0xFF;
+    TRISA = 0xBF;
+    TRISB = 0x00;
+    TRISC = 0x00;
 
     /**
     ANSELx registers
     */
-    ANSELC = 0xFF;
-    ANSELB = 0xFF;
-    ANSELA = 0xFF;
+    ANSELC = 0x00;
+    ANSELB = 0x00;
+    ANSELA = 0x00;
 
     /**
     WPUx registers
     */
     WPUE = 0x00;
-    WPUB = 0x00;
+    WPUB = 0x3F;
     WPUA = 0x00;
-    WPUC = 0x00;
+    WPUC = 0xE0;
 
     /**
     ODx registers
     */
     ODCONA = 0x00;
-    ODCONB = 0x00;
-    ODCONC = 0x00;
+    ODCONB = 0x3F;
+    ODCONC = 0xE0;
 
     /**
     SLRCONx registers
@@ -111,6 +111,10 @@ void PIN_MANAGER_Initialize(void)
 
    
     
+	
+    INT0PPS = 0x00;   //RA0->EXT_INT:INT0;    
+    INT2PPS = 0x02;   //RA2->EXT_INT:INT2;    
+    INT1PPS = 0x01;   //RA1->EXT_INT:INT1;    
 }
   
 void PIN_MANAGER_IOC(void)

@@ -43,6 +43,95 @@
 
 #include "mcc_generated_files/mcc.h"
 
+#include "pin_macros.h"
+
+void heartbeatTimerHandler(void) {
+ 
+    HEARTBEAT_LED_PIN = !(HEARTBEAT_LED_PIN);
+    
+    CLRWDT();
+    
+}
+
+void inputOneHandler(void) {
+    
+    if (OUTPUT_GROUP_SELECT_1_PIN) {
+        nOUTPUT_GROUP_1_CHANNEL_1_PIN = LOW;
+    }
+    
+    else if (OUTPUT_GROUP_SELECT_2_PIN) {
+        nOUTPUT_GROUP_1_CHANNEL_2_PIN = LOW;
+    }
+    
+    else if (OUTPUT_GROUP_SELECT_3_PIN) {
+        nOUTPUT_GROUP_1_CHANNEL_3_PIN = LOW;
+    
+    }
+    
+    TMR1_StartTimer();
+    
+}
+
+void inputTwoHandler(void) {
+ 
+    if (OUTPUT_GROUP_SELECT_1_PIN) {
+        nOUTPUT_GROUP_2_CHANNEL_1_PIN = LOW;
+    }
+    
+    else if (OUTPUT_GROUP_SELECT_2_PIN) {
+        nOUTPUT_GROUP_2_CHANNEL_2_PIN = LOW;
+    }
+    
+    else if (OUTPUT_GROUP_SELECT_3_PIN) {
+        nOUTPUT_GROUP_2_CHANNEL_3_PIN = LOW;
+    }
+    
+    TMR3_StartTimer();
+    
+}
+
+void inputThreeHandler(void) {
+    
+    if (OUTPUT_GROUP_SELECT_1_PIN) {
+        nOUTPUT_GROUP_3_CHANNEL_1_PIN = LOW;
+    }
+    
+    else if (OUTPUT_GROUP_SELECT_2_PIN) {
+        nOUTPUT_GROUP_3_CHANNEL_2_PIN = LOW;
+    }
+    
+    else if (OUTPUT_GROUP_SELECT_3_PIN) {
+        nOUTPUT_GROUP_3_CHANNEL_3_PIN = LOW;
+    }
+    
+    TMR5_StartTimer();
+    
+}
+
+void outputChannelOneClear(void) {
+    nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
+    TMR1_StopTimer();
+    TMR1_Reload();
+}
+
+void outputChannelTwoClear(void) {
+    nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
+    TMR3_StopTimer();
+    TMR3_Reload();
+}
+
+void outputChannelThreeClear(void) {
+    nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
+    TMR5_StopTimer();
+    TMR5_Reload();
+}
+
 /*
                          Main application
  */
@@ -55,21 +144,28 @@ void main(void)
     // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts
     // Use the following macros to:
 
-    // Enable the Global Interrupts
-    //INTERRUPT_GlobalInterruptEnable();
+    TMR0_SetInterruptHandler(heartbeatTimerHandler);
+    INT0_SetInterruptHandler(inputOneHandler);
+    INT1_SetInterruptHandler(inputTwoHandler);
+    INT2_SetInterruptHandler(inputThreeHandler);
+    
+    TMR1_StopTimer();
+    TMR3_StopTimer();
+    TMR5_StopTimer();
+    TMR1_Reload();
+    TMR3_Reload();
+    TMR5_Reload();
+    
+    // Enable high priority global interrupts
+    INTERRUPT_GlobalInterruptHighEnable();
 
-    // Disable the Global Interrupts
-    //INTERRUPT_GlobalInterruptDisable();
-
-    // Enable the Peripheral Interrupts
-    //INTERRUPT_PeripheralInterruptEnable();
-
-    // Disable the Peripheral Interrupts
-    //INTERRUPT_PeripheralInterruptDisable();
+    // Enable low priority global interrupts.
+    INTERRUPT_GlobalInterruptLowEnable();
 
     while (1)
     {
-        // Add your application code
+        // Twiddle your god damn thumbs
+        Nop();
     }
 }
 /**
