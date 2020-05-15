@@ -68,7 +68,7 @@ void inputOneHandler(void) {
     
     }
     
-    TMR1_StartTimer();
+    __delay_ms(500);
     
 }
 
@@ -86,7 +86,7 @@ void inputTwoHandler(void) {
         nOUTPUT_GROUP_2_CHANNEL_3_PIN = LOW;
     }
     
-    TMR3_StartTimer();
+    __delay_ms(500);
     
 }
 
@@ -104,32 +104,8 @@ void inputThreeHandler(void) {
         nOUTPUT_GROUP_3_CHANNEL_3_PIN = LOW;
     }
     
-    TMR5_StartTimer();
+    __delay_ms(500);
     
-}
-
-void outputChannelOneClear(void) {
-    nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
-    nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
-    nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
-    TMR1_StopTimer();
-    TMR1_Reload();
-}
-
-void outputChannelTwoClear(void) {
-    nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
-    nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
-    nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
-    TMR3_StopTimer();
-    TMR3_Reload();
-}
-
-void outputChannelThreeClear(void) {
-    nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
-    nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
-    nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
-    TMR5_StopTimer();
-    TMR5_Reload();
 }
 
 /*
@@ -149,13 +125,6 @@ void main(void)
     INT1_SetInterruptHandler(inputTwoHandler);
     INT2_SetInterruptHandler(inputThreeHandler);
     
-    TMR1_StopTimer();
-    TMR3_StopTimer();
-    TMR5_StopTimer();
-    TMR1_Reload();
-    TMR3_Reload();
-    TMR5_Reload();
-    
     // Enable high priority global interrupts
     INTERRUPT_GlobalInterruptHighEnable();
 
@@ -165,7 +134,16 @@ void main(void)
     while (1)
     {
         // Twiddle your god damn thumbs
-        Nop();
+        nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
+        nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
+        nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
+        nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
+        nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
+        nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
+        nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
+        nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
+        nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
+        
     }
 }
 /**
