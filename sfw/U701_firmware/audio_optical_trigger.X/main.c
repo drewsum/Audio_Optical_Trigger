@@ -60,22 +60,23 @@ void inputOneHandler(void) {
     }
     
     else if (OUTPUT_GROUP_SELECT_2_PIN) {
-        nOUTPUT_GROUP_1_CHANNEL_2_PIN = LOW;
+        nOUTPUT_GROUP_2_CHANNEL_1_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_3_PIN) {
-        nOUTPUT_GROUP_1_CHANNEL_3_PIN = LOW;
+        nOUTPUT_GROUP_3_CHANNEL_1_PIN = LOW;
     
     }
     
-    __delay_ms(500);
+    // __delay_ms(500);
+    TMR1_StartTimer();
     
 }
 
 void inputTwoHandler(void) {
  
     if (OUTPUT_GROUP_SELECT_1_PIN) {
-        nOUTPUT_GROUP_2_CHANNEL_1_PIN = LOW;
+        nOUTPUT_GROUP_1_CHANNEL_2_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_2_PIN) {
@@ -83,31 +84,65 @@ void inputTwoHandler(void) {
     }
     
     else if (OUTPUT_GROUP_SELECT_3_PIN) {
-        nOUTPUT_GROUP_2_CHANNEL_3_PIN = LOW;
+        nOUTPUT_GROUP_3_CHANNEL_2_PIN = LOW;
     }
     
-    __delay_ms(500);
+    // __delay_ms(500);
+    TMR3_StartTimer();
     
 }
 
 void inputThreeHandler(void) {
     
     if (OUTPUT_GROUP_SELECT_1_PIN) {
-        nOUTPUT_GROUP_3_CHANNEL_1_PIN = LOW;
+        nOUTPUT_GROUP_1_CHANNEL_3_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_2_PIN) {
-        nOUTPUT_GROUP_3_CHANNEL_2_PIN = LOW;
+        nOUTPUT_GROUP_2_CHANNEL_3_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_3_PIN) {
         nOUTPUT_GROUP_3_CHANNEL_3_PIN = LOW;
     }
     
-    __delay_ms(500);
+    // __delay_ms(500);
+    TMR5_StartTimer();
     
 }
 
+void channelOneClearHandler(void) {
+ 
+    nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
+    
+    TMR1_StopTimer();
+    TMR1_Reload();
+    
+}
+
+void channelTwoClearHandler(void) {
+ 
+    nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
+    
+    TMR3_StopTimer();
+    TMR3_Reload();
+    
+}
+
+void channelThreeClearHandler(void) {
+ 
+    nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
+    
+    TMR5_StopTimer();
+    TMR5_Reload();
+    
+}
 /*
                          Main application
  */
@@ -124,6 +159,16 @@ void main(void)
     INT0_SetInterruptHandler(inputOneHandler);
     INT1_SetInterruptHandler(inputTwoHandler);
     INT2_SetInterruptHandler(inputThreeHandler);
+    TMR1_SetInterruptHandler(channelOneClearHandler);
+    TMR3_SetInterruptHandler(channelTwoClearHandler);
+    TMR5_SetInterruptHandler(channelThreeClearHandler);
+    
+    TMR1_StopTimer();
+    TMR3_StopTimer();
+    TMR5_StopTimer();
+    TMR1_Reload();
+    TMR3_Reload();
+    TMR5_Reload();
     
     // Enable high priority global interrupts
     INTERRUPT_GlobalInterruptHighEnable();
@@ -134,15 +179,6 @@ void main(void)
     while (1)
     {
         // Twiddle your god damn thumbs
-        nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
-        nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
-        nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
-        nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
-        nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
-        nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
-        nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
-        nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
-        nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
         __delay_ms(100);
         
     }
