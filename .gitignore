@@ -18,3 +18,5 @@ _autosave-*
 *.dsn
 *.ses
 
+sfw/U701_firmware/audio_optical_trigger.X/build/*
+sfw/U701_firmware/audio_optical_trigger.X/dist/*
