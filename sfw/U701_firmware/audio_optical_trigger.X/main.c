@@ -153,11 +153,11 @@ void main(void)
 {
     // Initialize the device
     SYSTEM_Initialize();
-
-    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
-    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts
-    // Use the following macros to:
-
+    
+    // wait for +3.3V power supply to stabilize
+    while(POS3P3_PGOOD_PIN == LOW);
+    
+    // set interrupt handler functions for trigger signals and debouncing timers
     TMR0_SetInterruptHandler(heartbeatTimerHandler);
     INT0_SetInterruptHandler(inputOneHandler);
     INT1_SetInterruptHandler(inputTwoHandler);
@@ -166,6 +166,7 @@ void main(void)
     TMR3_SetInterruptHandler(channelTwoClearHandler);
     TMR5_SetInterruptHandler(channelThreeClearHandler);
     
+    // setup debouncing timers
     TMR1_StopTimer();
     TMR3_StopTimer();
     TMR5_StopTimer();
@@ -178,10 +179,14 @@ void main(void)
 
     // Enable low priority global interrupts.
     INTERRUPT_GlobalInterruptLowEnable();
+    
+    __delay_ms(1000);
+    
+    RESET_LED_PIN = LOW;
 
     while (1)
     {
-        // Twiddle your god damn thumbs
+        // Twiddle your god damn thumbs waiting for input
         __delay_ms(100);
         
     }
