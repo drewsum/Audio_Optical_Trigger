@@ -74,11 +74,11 @@ void TMR1_Initialize(void)
     //CS LFINTOSC; 
     T1CLK = 0x04;
 
-    //TMR1H 134; 
-    TMR1H = 0x86;
+    //TMR1H 13; 
+    TMR1H = 0x0D;
 
-    //TMR1L 232; 
-    TMR1L = 0xE8;
+    //TMR1L 208; 
+    TMR1L = 0xD0;
 
     // Load the TMR value to reload variable
     timer1ReloadVal=(uint16_t)((TMR1H << 8) | TMR1L);

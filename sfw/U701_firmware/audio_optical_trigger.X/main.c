@@ -68,7 +68,7 @@ void inputOneHandler(void) {
     
     }
     
-    // __delay_ms(500);
+    EXT_INT0_InterruptDisable();
     TMR1_StartTimer();
     
 }
@@ -87,7 +87,7 @@ void inputTwoHandler(void) {
         nOUTPUT_GROUP_3_CHANNEL_2_PIN = LOW;
     }
     
-    // __delay_ms(500);
+    EXT_INT1_InterruptDisable();
     TMR3_StartTimer();
     
 }
@@ -106,7 +106,7 @@ void inputThreeHandler(void) {
         nOUTPUT_GROUP_3_CHANNEL_3_PIN = LOW;
     }
     
-    // __delay_ms(500);
+    EXT_INT2_InterruptDisable();
     TMR5_StartTimer();
     
 }
@@ -119,6 +119,7 @@ void channelOneClearHandler(void) {
     
     TMR1_StopTimer();
     TMR1_Reload();
+    EXT_INT0_InterruptEnable();
     
 }
 
@@ -130,6 +131,7 @@ void channelTwoClearHandler(void) {
     
     TMR3_StopTimer();
     TMR3_Reload();
+    EXT_INT1_InterruptEnable();
     
 }
 
@@ -141,6 +143,7 @@ void channelThreeClearHandler(void) {
     
     TMR5_StopTimer();
     TMR5_Reload();
+    EXT_INT2_InterruptEnable();
     
 }
 /*
