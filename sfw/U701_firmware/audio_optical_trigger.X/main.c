@@ -60,22 +60,23 @@ void inputOneHandler(void) {
     }
     
     else if (OUTPUT_GROUP_SELECT_2_PIN) {
-        nOUTPUT_GROUP_1_CHANNEL_2_PIN = LOW;
+        nOUTPUT_GROUP_2_CHANNEL_1_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_3_PIN) {
-        nOUTPUT_GROUP_1_CHANNEL_3_PIN = LOW;
+        nOUTPUT_GROUP_3_CHANNEL_1_PIN = LOW;
     
     }
     
-    __delay_ms(500);
+    EXT_INT0_InterruptDisable();
+    TMR1_StartTimer();
     
 }
 
 void inputTwoHandler(void) {
  
     if (OUTPUT_GROUP_SELECT_1_PIN) {
-        nOUTPUT_GROUP_2_CHANNEL_1_PIN = LOW;
+        nOUTPUT_GROUP_1_CHANNEL_2_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_2_PIN) {
@@ -83,31 +84,68 @@ void inputTwoHandler(void) {
     }
     
     else if (OUTPUT_GROUP_SELECT_3_PIN) {
-        nOUTPUT_GROUP_2_CHANNEL_3_PIN = LOW;
+        nOUTPUT_GROUP_3_CHANNEL_2_PIN = LOW;
     }
     
-    __delay_ms(500);
+    EXT_INT1_InterruptDisable();
+    TMR3_StartTimer();
     
 }
 
 void inputThreeHandler(void) {
     
     if (OUTPUT_GROUP_SELECT_1_PIN) {
-        nOUTPUT_GROUP_3_CHANNEL_1_PIN = LOW;
+        nOUTPUT_GROUP_1_CHANNEL_3_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_2_PIN) {
-        nOUTPUT_GROUP_3_CHANNEL_2_PIN = LOW;
+        nOUTPUT_GROUP_2_CHANNEL_3_PIN = LOW;
     }
     
     else if (OUTPUT_GROUP_SELECT_3_PIN) {
         nOUTPUT_GROUP_3_CHANNEL_3_PIN = LOW;
     }
     
-    __delay_ms(500);
+    EXT_INT2_InterruptDisable();
+    TMR5_StartTimer();
     
 }
 
+void channelOneClearHandler(void) {
+ 
+    nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
+    
+    TMR1_StopTimer();
+    TMR1_Reload();
+    EXT_INT0_InterruptEnable();
+    
+}
+
+void channelTwoClearHandler(void) {
+ 
+    nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
+    
+    TMR3_StopTimer();
+    TMR3_Reload();
+    EXT_INT1_InterruptEnable();
+    
+}
+
+void channelThreeClearHandler(void) {
+ 
+    nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
+    nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
+    nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
+    
+    TMR5_StopTimer();
+    TMR5_Reload();
+    EXT_INT2_InterruptEnable();
+    
+}
 /*
                          Main application
  */
@@ -115,34 +153,40 @@ void main(void)
 {
     // Initialize the device
     SYSTEM_Initialize();
-
-    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts
-    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts
-    // Use the following macros to:
-
+    
+    // wait for +3.3V power supply to stabilize
+    while(POS3P3_PGOOD_PIN == LOW);
+    
+    // set interrupt handler functions for trigger signals and debouncing timers
     TMR0_SetInterruptHandler(heartbeatTimerHandler);
     INT0_SetInterruptHandler(inputOneHandler);
     INT1_SetInterruptHandler(inputTwoHandler);
     INT2_SetInterruptHandler(inputThreeHandler);
+    TMR1_SetInterruptHandler(channelOneClearHandler);
+    TMR3_SetInterruptHandler(channelTwoClearHandler);
+    TMR5_SetInterruptHandler(channelThreeClearHandler);
+    
+    // setup debouncing timers
+    TMR1_StopTimer();
+    TMR3_StopTimer();
+    TMR5_StopTimer();
+    TMR1_Reload();
+    TMR3_Reload();
+    TMR5_Reload();
     
     // Enable high priority global interrupts
     INTERRUPT_GlobalInterruptHighEnable();
 
     // Enable low priority global interrupts.
     INTERRUPT_GlobalInterruptLowEnable();
+    
+    __delay_ms(1000);
+    
+    RESET_LED_PIN = LOW;
 
     while (1)
     {
-        // Twiddle your god damn thumbs
-        nOUTPUT_GROUP_1_CHANNEL_1_PIN = HIGH;
-        nOUTPUT_GROUP_1_CHANNEL_2_PIN = HIGH;
-        nOUTPUT_GROUP_1_CHANNEL_3_PIN = HIGH;
-        nOUTPUT_GROUP_2_CHANNEL_1_PIN = HIGH;
-        nOUTPUT_GROUP_2_CHANNEL_2_PIN = HIGH;
-        nOUTPUT_GROUP_2_CHANNEL_3_PIN = HIGH;
-        nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
-        nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
-        nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
+        // Twiddle your god damn thumbs waiting for input
         __delay_ms(100);
         
     }
