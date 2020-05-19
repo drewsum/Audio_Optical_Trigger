@@ -143,6 +143,7 @@ void main(void)
         nOUTPUT_GROUP_3_CHANNEL_1_PIN = HIGH;
         nOUTPUT_GROUP_3_CHANNEL_2_PIN = HIGH;
         nOUTPUT_GROUP_3_CHANNEL_3_PIN = HIGH;
+        __delay_ms(100);
         
     }
 }

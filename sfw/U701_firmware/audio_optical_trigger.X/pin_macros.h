@@ -48,7 +48,7 @@
 #define nOUTPUT_GROUP_2_CHANNEL_3_PIN       LATBbits.LATB2
 #define nOUTPUT_GROUP_3_CHANNEL_1_PIN       LATBbits.LATB3
 #define nOUTPUT_GROUP_3_CHANNEL_2_PIN       LATBbits.LATB4
-#define nOUTPUT_GROUP_3_CHANNEL_3_PIN       LATBbits.LATB6
+#define nOUTPUT_GROUP_3_CHANNEL_3_PIN       LATBbits.LATB5
 
 // PORT C
 #define HEARTBEAT_LED_PIN                   LATCbits.LATC3
